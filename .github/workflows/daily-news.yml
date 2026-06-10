@@ -1,17 +1,32 @@
-name: AITools Global - Daily News
+name: Daily AI News
 
 on:
   schedule:
-    - cron: "0 23 * * *"  # 北京时间 7:00 = UTC 23:00
+    - cron: "0 23 * * *"  # Beijing 7:00 = UTC 23:00
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Generate daily AI news
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Generate news
+        run: node scripts/generate-content.mjs news
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      - name: Commit and push
         run: |
-          curl -X POST "${{ secrets.SITE_URL }}/api/cron/daily-news?secret=${{ secrets.CRON_SECRET }}" \
-            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}" \
-            --max-time 300
-          echo "✅ Daily news generation triggered"
+          git config user.name "aitools-bot"
+          git config user.email "bot@aitools.global"
+          git add src/data/news.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "content: daily AI news update [skip ci]"
+            git push
+          fi

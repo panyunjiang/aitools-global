@@ -1,17 +1,32 @@
-name: AITools Global - Weekly Tools
+name: Weekly AI Tools
 
 on:
   schedule:
-    - cron: "0 3 * * 1"  # 每周一北京时间 11:00 = UTC 03:00 Monday
+    - cron: "0 3 * * 1"  # Beijing Mon 11:00 = UTC Mon 03:00
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Generate weekly AI tools
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Generate tools
+        run: node scripts/generate-content.mjs tools
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      - name: Commit and push
         run: |
-          curl -X POST "${{ secrets.SITE_URL }}/api/cron/weekly-tools?secret=${{ secrets.CRON_SECRET }}" \
-            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}" \
-            --max-time 300
-          echo "✅ Weekly tools generation triggered"
+          git config user.name "aitools-bot"
+          git config user.email "bot@aitools.global"
+          git add src/data/tools.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "content: weekly AI tools update [skip ci]"
+            git push
+          fi

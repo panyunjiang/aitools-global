@@ -1,27 +1,21 @@
-import pool from "./db";
-import { tools as staticTools, categories as staticCategories } from "@/data/tools";
-import { newsArticles as staticNews } from "@/data/news";
-import type { Tool as StaticTool } from "@/data/tools";
+import toolsData from "@/data/tools.json";
+import newsData from "@/data/news.json";
 import type { NewsArticle } from "@/data/news";
 
-// ---- Types (DB versions include DB fields) ----
-
-export interface DBTool {
-  id: number;
+export interface Tool {
+  id: string;
   name: string;
-  slug: string;
   url: string;
   description: string;
-  description_zh: string;
+  descriptionZh: string;
   category: string;
-  tags: string;
-  pricing: string;
+  tags: string[];
+  pricing: "Free" | "Freemium" | "Paid" | "Open Source";
   logo: string;
-  featured: number;
-  source: string;
+  featured: boolean;
 }
 
-export interface DBCategory {
+export interface Category {
   slug: string;
   name: string;
   nameZh: string;
@@ -29,7 +23,7 @@ export interface DBCategory {
   count: number;
 }
 
-const categoryMap: Record<string, { name: string; nameZh: string; icon: string }> = {
+const categoryMeta: Record<string, { name: string; nameZh: string; icon: string }> = {
   "text-generation": { name: "Text & Chat", nameZh: "文本对话", icon: "💬" },
   "image-generation": { name: "Image Generation", nameZh: "图像生成", icon: "🎨" },
   "code-assistant": { name: "Code Assistant", nameZh: "代码助手", icon: "💻" },
@@ -40,120 +34,29 @@ const categoryMap: Record<string, { name: string; nameZh: string; icon: string }
   "design-tool": { name: "Design Tools", nameZh: "设计工具", icon: "✏️" },
 };
 
-function formatTool(t: DBTool): StaticTool {
-  let tags: string[] = [];
-  try { tags = JSON.parse(t.tags); } catch { tags = []; }
-  return {
-    id: t.slug,
-    name: t.name,
-    url: t.url,
-    description: t.description,
-    descriptionZh: t.description_zh,
-    category: t.category,
-    tags,
-    pricing: t.pricing as StaticTool["pricing"],
-    logo: t.logo,
-    featured: t.featured === 1,
-  };
+const tools: Tool[] = toolsData as Tool[];
+const news: NewsArticle[] = newsData as NewsArticle[];
+
+export function getAllTools(): Tool[] { return tools; }
+export function getFeaturedTools(): Tool[] { return tools.filter((t) => t.featured); }
+export function getToolsByCategory(category: string): Tool[] { return tools.filter((t) => t.category === category); }
+
+export function searchTools(query: string): Tool[] {
+  const q = query.toLowerCase();
+  return tools.filter((t) =>
+    t.name.toLowerCase().includes(q) || t.description.toLowerCase().includes(q) ||
+    t.descriptionZh.includes(q) || t.tags.some((tag) => tag.toLowerCase().includes(q)) ||
+    t.category.includes(q)
+  );
 }
 
-// ---- DB Readers (with static fallback) ----
-
-async function dbReady(): Promise<boolean> {
-  try {
-    await pool.query("SELECT 1");
-    return true;
-  } catch {
-    return false;
-  }
+export function getCategories(): Category[] {
+  const counts: Record<string, number> = {};
+  tools.forEach((t) => { counts[t.category] = (counts[t.category] || 0) + 1; });
+  return Object.entries(counts).map(([slug, count]) => ({
+    slug, count, ...(categoryMeta[slug] || { name: slug, nameZh: slug, icon: "🔧" }),
+  }));
 }
 
-// Tools
-export async function getAllTools(): Promise<StaticTool[]> {
-  if (!(await dbReady())) return staticTools;
-  try {
-    const [rows] = await pool.query("SELECT * FROM tools ORDER BY featured DESC, created_at DESC") as any;
-    return rows.map(formatTool);
-  } catch { return staticTools; }
-}
-
-export async function getFeaturedTools(): Promise<StaticTool[]> {
-  if (!(await dbReady())) return staticTools.filter((t) => t.featured);
-  try {
-    const [rows] = await pool.query("SELECT * FROM tools WHERE featured = 1 ORDER BY created_at DESC") as any;
-    return (rows as DBTool[]).map(formatTool);
-  } catch { return staticTools.filter((t) => t.featured); }
-}
-
-export async function getToolsByCategory(category: string): Promise<StaticTool[]> {
-  if (!(await dbReady())) return staticTools.filter((t) => t.category === category);
-  try {
-    const [rows] = await pool.query("SELECT * FROM tools WHERE category = ? ORDER BY featured DESC", [category]) as any;
-    return (rows as DBTool[]).map(formatTool);
-  } catch { return staticTools.filter((t) => t.category === category); }
-}
-
-export async function searchTools(query: string): Promise<StaticTool[]> {
-  if (!(await dbReady())) {
-    const q = query.toLowerCase();
-    return staticTools.filter((t) =>
-      t.name.toLowerCase().includes(q) || t.description.toLowerCase().includes(q) || t.descriptionZh.includes(q) ||
-      t.tags.some((tag) => tag.toLowerCase().includes(q)) || t.category.includes(q)
-    );
-  }
-  try {
-    const [rows] = await pool.query(
-      "SELECT * FROM tools WHERE name LIKE ? OR description LIKE ? OR description_zh LIKE ? OR category LIKE ?",
-      [`%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`]
-    ) as any;
-    return (rows as DBTool[]).map(formatTool);
-  } catch { return []; }
-}
-
-export async function getCategories(): Promise<DBCategory[]> {
-  if (!(await dbReady())) return staticCategories.map((c) => ({ ...c }));
-  try {
-    const [rows] = await pool.query(
-      "SELECT category, COUNT(*) as count FROM tools GROUP BY category"
-    ) as any;
-    return (rows as any[]).map((r: any) => ({
-      slug: r.category,
-      name: categoryMap[r.category]?.name || r.category,
-      nameZh: categoryMap[r.category]?.nameZh || r.category,
-      icon: categoryMap[r.category]?.icon || "🔧",
-      count: r.count,
-    }));
-  } catch { return staticCategories.map((c) => ({ slug: c.slug, name: c.name, nameZh: c.nameZh, icon: c.icon, count: c.count })); }
-}
-
-// News
-export async function getAllNews(): Promise<NewsArticle[]> {
-  if (!(await dbReady())) return staticNews;
-  try {
-    const [rows] = await pool.query("SELECT * FROM news ORDER BY date DESC") as any;
-    return (rows as any[]).map((r: any) => ({
-      slug: r.slug,
-      title: r.title,
-      date: typeof r.date === "string" ? r.date : r.date.toISOString().split("T")[0],
-      category: r.category,
-      excerpt: r.excerpt,
-      tags: JSON.parse(r.tags || "[]"),
-      content: r.content,
-    }));
-  } catch { return staticNews; }
-}
-
-export async function getNewsBySlug(slug: string): Promise<NewsArticle | undefined> {
-  if (!(await dbReady())) return staticNews.find((a) => a.slug === slug);
-  try {
-    const [rows] = await pool.query("SELECT * FROM news WHERE slug = ?", [slug]) as any;
-    if (!(rows as any[]).length) return undefined;
-    const r = (rows as any[])[0];
-    return {
-      slug: r.slug, title: r.title,
-      date: typeof r.date === "string" ? r.date : r.date.toISOString().split("T")[0],
-      category: r.category, excerpt: r.excerpt,
-      tags: JSON.parse(r.tags || "[]"), content: r.content,
-    };
-  } catch { return staticNews.find((a) => a.slug === slug); }
-}
+export function getAllNews(): NewsArticle[] { return news; }
+export function getNewsBySlug(slug: string): NewsArticle | undefined { return news.find((a) => a.slug === slug); }
