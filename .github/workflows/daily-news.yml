@@ -1,0 +1,17 @@
+name: AITools Global - Daily News
+
+on:
+  schedule:
+    - cron: "0 23 * * *"  # 北京时间 7:00 = UTC 23:00
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate daily AI news
+        run: |
+          curl -X POST "${{ secrets.SITE_URL }}/api/cron/daily-news?secret=${{ secrets.CRON_SECRET }}" \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}" \
+            --max-time 300
+          echo "✅ Daily news generation triggered"

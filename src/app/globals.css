@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-gradient-from: var(--gradient-from);
+  --color-gradient-to: var(--gradient-to);
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 配色方案 */
+:root {
+  --background: #F8F8F9;
+  --foreground: #111439;
+  --primary: #111439;
+  --primary-foreground: #F8F8F9;
+  --secondary: #e8e9f0;
+  --secondary-foreground: #111439;
+  --muted: #eeeff3;
+  --muted-foreground: #6b6e8a;
+  --accent: #111439;
+  --accent-foreground: #F8F8F9;
+  --card: #ffffff;
+  --card-foreground: #111439;
+  --border: #e2e3ea;
+  --input: #e2e3ea;
+  --ring: #111439;
+  --gradient-from: #111439;
+  --gradient-to: #3b3f6e;
+}
+
+/* 深色模式 */
+.dark {
+  --background: #0a0b1e;
+  --foreground: #F8F8F9;
+  --primary: #F8F8F9;
+  --primary-foreground: #111439;
+  --secondary: #1a1b3a;
+  --secondary-foreground: #F8F8F9;
+  --muted: #1a1b3a;
+  --muted-foreground: #9498b8;
+  --accent: #F8F8F9;
+  --accent-foreground: #111439;
+  --card: #111439;
+  --card-foreground: #F8F8F9;
+  --border: #2a2b5a;
+  --input: #2a2b5a;
+  --ring: #F8F8F9;
+  --gradient-from: #F8F8F9;
+  --gradient-to: #b8bcd8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Inter, system-ui, sans-serif);
+}
+
+/* 工具卡片悬停效果 */
+.tool-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tool-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(17, 20, 57, 0.08);
+}
+
+/* 渐变文字 */
+.gradient-text {
+  background: linear-gradient(135deg, var(--gradient-from), var(--gradient-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 渐变背景 */
+.gradient-bg {
+  background: linear-gradient(135deg, var(--gradient-from), var(--gradient-to));
+}
+
+/* Hero 背景 */
+.hero-bg {
+  background: linear-gradient(180deg, #111439 0%, #1a1d4e 50%, #F8F8F9 100%);
+}

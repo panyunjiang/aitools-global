@@ -1,0 +1,17 @@
+name: AITools Global - Weekly Tools
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"  # 每周一北京时间 11:00 = UTC 03:00 Monday
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate weekly AI tools
+        run: |
+          curl -X POST "${{ secrets.SITE_URL }}/api/cron/weekly-tools?secret=${{ secrets.CRON_SECRET }}" \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}" \
+            --max-time 300
+          echo "✅ Weekly tools generation triggered"
