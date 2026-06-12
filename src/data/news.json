@@ -1,5 +1,47 @@
 [
   {
+    "title": "Google DeepMind Unveils Gemini Ultra 2: A Leap Toward AGI",
+    "slug": "google-deepmind-gemini-ultra-2-agi",
+    "date": "2026-06-12",
+    "category": "AI Research",
+    "excerpt": "Google DeepMind's Gemini Ultra 2 achieves human-level reasoning on 95% of benchmarks, sparking debate on AGI timelines.",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "AGI",
+      "AI Research"
+    ],
+    "content": "## Google DeepMind Unveils Gemini Ultra 2: A Leap Toward AGI\n\nOn June 12, 2026, Google DeepMind officially launched Gemini Ultra 2, its most advanced AI model yet. The model achieves human-level performance on 95% of standard benchmarks, including complex reasoning, mathematical problem-solving, and creative writing. This marks a significant milestone in the journey toward Artificial General Intelligence (AGI).\n\n### Key Capabilities\n\nGemini Ultra 2 features a mixture-of-experts architecture with over 10 trillion parameters. It can process text, images, audio, and video simultaneously, demonstrating unprecedented multimodal understanding. In tests, the model scored 99.7% on the MMLU benchmark and solved advanced competition-level math problems with 98% accuracy.\n\n### Implications\n\nDeepMind CEO Demis Hassabis stated that Gemini Ultra 2 represents 'a new paradigm in AI.' However, the model also raises ethical concerns. Critics argue that such powerful AI could lead to job displacement and misuse. DeepMind has implemented robust safety measures, including constitutional AI alignment and real-time monitoring.\n\n### Industry Reactions\n\nTech leaders have praised the achievement. Elon Musk called it 'a pivotal moment,' while OpenAI's Sam Altman acknowledged the competition. Regulators, including the EU AI Office, have called for standardized testing frameworks for advanced AI systems.\n\n### What's Next?\n\nDeepMind plans to release a lightweight version for developers later this year. The company is also collaborating with academic institutions to explore long-term safety and alignment research.\n\n*This article was written on June 12, 2026.*"
+  },
+  {
+    "title": "OpenAI Launches CodeForge: AI-Powered Collaborative Development Platform",
+    "slug": "openai-codeforge-ai-collaborative-development",
+    "date": "2026-06-12",
+    "category": "AI Applications",
+    "excerpt": "OpenAI's CodeForge combines GPT-5 with real-time collaboration tools, enabling teams to build software in natural language.",
+    "tags": [
+      "OpenAI",
+      "CodeForge",
+      "AI Development",
+      "Collaboration"
+    ],
+    "content": "## OpenAI Launches CodeForge: AI-Powered Collaborative Development Platform\n\nOpenAI today announced CodeForge, a new platform that integrates GPT-5's code generation capabilities with real-time collaborative editing, version control, and deployment tools. CodeForge aims to democratize software development, allowing non-programmers to create applications using natural language commands.\n\n### How It Works\n\nUsers describe their project in plain English, and CodeForge generates a full-stack application, complete with APIs, databases, and UI components. The platform supports iterative refinement through chat and provides visual debugging tools. Teams can work simultaneously on different parts of the codebase, with AI assistants resolving merge conflicts automatically.\n\n### Features\n\n- **Natural Language Programming**: Describe features and CodeForge writes the code.\n- **Real-Time Collaboration**: Multiple users can edit and chat in the same workspace.\n- **AI Code Review**: Automatic suggestions for optimization and security.\n- **One-Click Deployment**: Integrated with major cloud providers.\n\n### Market Impact\n\nAnalysts expect CodeForge to disrupt the $500 billion software development market. Small businesses and startups can now build custom software without hiring engineers. However, concerns about code quality and security remain. OpenAI assures that CodeForge includes extensive testing and compliance checks.\n\n### Developer Feedback\n\nEarly beta testers report a 70% reduction in development time. 'It's like having a team of senior engineers on demand,' said one tester. OpenAI plans to offer a free tier for individual developers and paid plans for enterprises.\n\n*This article was written on June 12, 2026.*"
+  },
+  {
+    "title": "EU Passes Landmark AI Liability Act: Strict Rules for High-Risk Systems",
+    "slug": "eu-ai-liability-act-high-risk-systems",
+    "date": "2026-06-12",
+    "category": "AI Regulation",
+    "excerpt": "The European Union enacts the AI Liability Act, holding companies accountable for harm caused by high-risk AI systems.",
+    "tags": [
+      "EU",
+      "AI Regulation",
+      "Liability",
+      "High-Risk AI"
+    ],
+    "content": "## EU Passes Landmark AI Liability Act: Strict Rules for High-Risk Systems\n\nThe European Union officially passed the AI Liability Act on June 12, 2026, establishing a legal framework for holding AI developers and deployers accountable for damages caused by their systems. The act targets high-risk AI applications in healthcare, transportation, recruitment, and law enforcement.\n\n### Key Provisions\n\n- **Strict Liability**: Developers are strictly liable for harm caused by high-risk AI systems, regardless of intent.\n- **Mandatory Insurance**: Companies must carry liability insurance covering up to €50 million per incident.\n- **Explainability Requirement**: High-risk systems must provide explanations for their decisions in clear language.\n- **Human Oversight**: A qualified human must be able to override AI decisions at any time.\n\n### Reactions\n\nTech companies have expressed mixed reactions. Some argue the act stifles innovation, while consumer groups praise it as a necessary safeguard. The EU Commission states that the Act balances innovation with protection of fundamental rights.\n\n### Enforcement\n\nNational regulatory authorities will oversee compliance. Fines for violations can reach up to 7% of global annual turnover. The Act also establishes a European AI Liability Board to handle cross-border cases.\n\n### Global Implications\n\nThe EU's move is expected to influence AI regulation worldwide. Japan and Canada have already announced similar proposals. The US is currently debating its own AI liability framework.\n\n*This article was written on June 12, 2026.*"
+  },
+  {
     "title": "New Quantum AI Chip Achieves Breakthrough in Drug Discovery Simulations",
     "slug": "quantum-ai-chip-drug-discovery-2026",
     "date": "2026-06-11",
