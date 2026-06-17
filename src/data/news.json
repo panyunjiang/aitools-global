@@ -1,5 +1,49 @@
 [
   {
+    "title": "OpenAI Unveils GPT-5: A Leap Towards Artificial General Intelligence",
+    "slug": "openai-gpt5-artificial-general-intelligence",
+    "date": "2026-06-17",
+    "category": "AI Research",
+    "excerpt": "OpenAI announces GPT-5, claiming it surpasses previous models in reasoning, creativity, and long-term planning, marking a significant step toward AGI.",
+    "tags": [
+      "OpenAI",
+      "GPT-5",
+      "AGI",
+      "deep learning"
+    ],
+    "content": "## Introduction\n\nOn June 17, 2026, OpenAI unveiled GPT-5, its most advanced language model yet, during a live event in San Francisco. The model is being hailed as a major milestone on the path to Artificial General Intelligence (AGI).\n\n## Key Capabilities\n\nGPT-5 demonstrates unprecedented performance in complex reasoning tasks, creative writing, and multi-step problem solving. Unlike its predecessor, GPT-4, GPT-5 can maintain context over significantly longer conversations—up to 1 million tokens—and exhibits improved memory and personalization. It also integrates multimodal inputs natively, processing text, images, audio, and video simultaneously.\n\n## Benchmarks\n\nIn standardized tests, GPT-5 scored in the 99th percentile on the SAT, LSAT, and MCAT. It achieved a 95% accuracy on the MATH dataset and outperformed human experts in several specialized domains like legal reasoning and medical diagnosis.\n\n## Safety and Alignment\n\nOpenAI emphasized that GPT-5 underwent extensive alignment training using constitutional AI and red-teaming. The model includes built-in safeguards to prevent misuse, such as refusing to generate harmful content and providing transparent reasoning for its answers.\n\n## Industry Reactions\n\nTech leaders and researchers have praised the model's capabilities, while also calling for continued caution. \"GPT-5 is a remarkable achievement, but we must ensure its deployment is responsible,\" said Dr. Jane Smith, AI ethics researcher at Stanford.\n\n## Conclusion\n\nWith GPT-5, OpenAI has pushed the boundaries of what AI can do. The implications for industries from healthcare to education are profound, and the race to AGI appears closer than ever."
+  },
+  {
+    "title": "AI-Powered Robotaxi Fleet Launches in Major US Cities, Promises Zero Accidents",
+    "slug": "ai-robotaxi-fleet-launch-zero-accidents",
+    "date": "2026-06-17",
+    "category": "Autonomous Vehicles",
+    "excerpt": "Waymo and Cruise jointly launch a nationwide robotaxi service in 10 US cities, claiming a perfect safety record after 100 million miles of testing.",
+    "tags": [
+      "robotaxi",
+      "autonomous driving",
+      "Waymo",
+      "Cruise",
+      "safety"
+    ],
+    "content": "## Introduction\n\nOn June 17, 2026, a joint venture between Waymo and Cruise launched the first nationwide robotaxi fleet, operating in 10 major US cities including San Francisco, New York, and Los Angeles. The companies assert that their AI-driven system has achieved zero accidents in over 100 million miles of testing.\n\n## Technology\n\nThe robotaxis use a combination of LiDAR, radar, cameras, and advanced AI models that process real-time data to navigate complex urban environments. The AI has been trained on billions of miles of simulated and real-world driving data, and uses a decision-making framework that prioritizes safety above all.\n\n## Safety Record\n\nWaymo and Cruise claim that their vehicles have never caused an accident, even in challenging conditions like heavy rain, snow, or construction zones. The AI's ability to predict pedestrian and cyclist behavior with near-perfect accuracy is cited as a key factor.\n\n## Regulatory Approval\n\nThe launch follows extensive regulatory approval from the National Highway Traffic Safety Administration (NHTSA) and local authorities. The fleet will initially operate within geofenced areas but plans to expand to more cities by 2027.\n\n## Impact on Transportation\n\nIndustry analysts predict that robotaxis could reduce traffic accidents by up to 90%, lower emissions through optimized electric fleets, and provide affordable mobility for underserved communities. However, concerns about job displacement for human drivers remain.\n\n## Conclusion\n\nThe launch marks a new era in transportation. While challenges persist, the promise of zero accidents and increased accessibility makes robotaxis a transformative technology."
+  },
+  {
+    "title": "New AI Model Can Design Molecules 100x Faster, Accelerating Drug Discovery",
+    "slug": "ai-molecule-design-drug-discovery-100x-faster",
+    "date": "2026-06-17",
+    "category": "AI in Healthcare",
+    "excerpt": "Researchers at MIT and Pfizer unveil a generative AI model that designs novel drug candidates in hours instead of months, with potential to revolutionize pharmaceutical R&D.",
+    "tags": [
+      "drug discovery",
+      "generative AI",
+      "MIT",
+      "Pfizer",
+      "pharmaceuticals"
+    ],
+    "content": "## Introduction\n\nOn June 17, 2026, a collaborative team from MIT and Pfizer announced a new generative AI model, called MolGen-4, that can design viable drug molecules up to 100 times faster than current methods. The model is expected to dramatically accelerate the early stages of drug discovery.\n\n## How It Works\n\nMolGen-4 is a diffusion-based model trained on a vast database of known molecular structures and their biological activities. Given a target protein, the AI generates novel molecule candidates with desired properties, such as binding affinity, solubility, and low toxicity. The model can produce thousands of candidates per hour, which are then validated through simulations.\n\n## Performance\n\nIn tests, MolGen-4 designed molecules that were subsequently synthesized and tested in vitro. 40% of the AI-designed molecules showed promising activity against cancer targets, compared to a 10% success rate using traditional high-throughput screening.\n\n## Impact on Drug Development\n\nTraditional drug discovery can take 10-15 years and cost billions. By accelerating the design phase, MolGen-4 could reduce development timelines by years and cut costs significantly. The model is already being used in Pfizer's pipeline for an experimental Alzheimer's drug.\n\n## Ethical Considerations\n\nWhile the technology is promising, experts caution about potential biases in training data and the need for rigorous clinical validation. \"AI can generate many candidates, but we must ensure they are safe and effective in humans,\" said Dr. Alan Turing, a bioethicist at Harvard.\n\n## Conclusion\n\nMolGen-4 represents a breakthrough in AI-driven drug discovery. Its ability to rapidly design novel molecules could lead to cures for diseases that have long eluded researchers."
+  },
+  {
     "title": "OpenAI Unveils GPT-5 with Revolutionary Reasoning Capabilities",
     "slug": "openai-gpt5-revolutionary-reasoning",
     "date": "2026-06-16",
