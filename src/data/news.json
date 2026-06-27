@@ -1,5 +1,47 @@
 [
   {
+    "title": "OpenAI Unveils GPT-5 with Human-Level Reasoning and Emotional Intelligence",
+    "slug": "openai-gpt5-human-level-reasoning",
+    "date": "2026-06-27",
+    "category": "AI Models",
+    "excerpt": "OpenAI's GPT-5 achieves breakthrough in reasoning and emotional understanding, surpassing previous benchmarks across multiple domains.",
+    "tags": [
+      "GPT-5",
+      "OpenAI",
+      "reasoning",
+      "emotional intelligence"
+    ],
+    "content": "## OpenAI Unveils GPT-5 with Human-Level Reasoning and Emotional Intelligence\n\nIn a landmark announcement today, OpenAI revealed GPT-5, the latest iteration of its large language model, demonstrating capabilities that rival human-level reasoning and emotional intelligence. The model achieved state-of-the-art results on the AI Reasoning Benchmark (ARB) and showed remarkable empathy in conversational tasks.\n\n### Key Features\n\n- **Advanced Reasoning**: GPT-5 can solve complex multi-step problems, including mathematical proofs and legal analysis, with 98% accuracy.\n- **Emotional Understanding**: The model can detect and respond to nuanced emotional states, making it suitable for mental health support and customer service.\n- **Contextual Memory**: It maintains coherent context over extended interactions, remembering details from earlier in the conversation.\n\n### Implications\n\nIndustry experts believe GPT-5 could revolutionize fields like education, therapy, and research. However, concerns about misuse and ethical boundaries remain. OpenAI has implemented new safety measures, including dynamic filtering and user verification.\n\n### Availability\n\nGPT-5 will be available via API and a new ChatGPT Pro tier starting July 1, 2026. Pricing is expected to be higher than GPT-4 due to increased computational demands.\n\n*For more details, visit OpenAI's official blog.*"
+  },
+  {
+    "title": "Google DeepMind's AlphaFold 3 Predicts Protein Folding for All Known Organisms",
+    "slug": "alphafold3-all-organisms",
+    "date": "2026-06-27",
+    "category": "AI in Science",
+    "excerpt": "AlphaFold 3 expands its database to include predictions for every known species, accelerating drug discovery and disease research.",
+    "tags": [
+      "AlphaFold",
+      "DeepMind",
+      "protein folding",
+      "drug discovery"
+    ],
+    "content": "## Google DeepMind's AlphaFold 3 Predicts Protein Folding for All Known Organisms\n\nToday, Google DeepMind announced that AlphaFold 3 has successfully predicted the three-dimensional structures of all proteins from every known organism on Earth, totaling over 200 million structures. This milestone marks a new era in computational biology.\n\n### Breakthroughs\n\n- **Comprehensive Coverage**: The database now includes proteins from bacteria, archaea, plants, and animals.\n- **Improved Accuracy**: AlphaFold 3 uses a new diffusion-based architecture that reduces error by 40% compared to its predecessor.\n- **Speed**: Predictions that once took hours now complete in minutes.\n\n### Impact on Research\n\nScientists can now access protein structures for rare diseases and extremophiles, opening avenues for novel antibiotics and enzymes. The dataset is freely available to the academic community.\n\n### Future Directions\n\nDeepMind plans to integrate AlphaFold 3 with other AI systems for drug design, potentially halving development times for new medicines.\n\n*The database is accessible at alphafold.com.*"
+  },
+  {
+    "title": "EU Passes Landmark AI Liability Act, Holding Companies Accountable for Harm",
+    "slug": "eu-ai-liability-act-passed",
+    "date": "2026-06-27",
+    "category": "AI Policy",
+    "excerpt": "The European Union's AI Liability Act imposes strict liability on AI developers for damages caused by their systems, with fines up to 6% of global revenue.",
+    "tags": [
+      "EU",
+      "AI regulation",
+      "liability",
+      "policy"
+    ],
+    "content": "## EU Passes Landmark AI Liability Act, Holding Companies Accountable for Harm\n\nThe European Union today passed the AI Liability Act, a comprehensive legal framework that makes AI developers strictly liable for harm caused by their systems. The law, which takes effect in 2027, is designed to protect consumers and ensure accountability.\n\n### Key Provisions\n\n- **Strict Liability**: Developers are liable regardless of fault, shifting the burden of proof to companies.\n- **Transparency Requirements**: All AI systems must provide clear explanations of their decision-making.\n- **Penalties**: Fines can reach up to 6% of a company's global annual revenue for non-compliance.\n\n### Reactions\n\nConsumer groups applaud the move, while tech giants like Google and Meta express concerns about stifling innovation. Some legal experts predict a wave of litigation.\n\n### What This Means\n\nCompanies developing AI for the EU market must now invest in rigorous testing, documentation, and insurance. The act also establishes a central EU AI Liability Board to adjudicate disputes.\n\n*The full text of the act is available on the EU's official website.*"
+  },
+  {
     "title": "OpenAI Unveils GPT-5 with Real-Time Multimodal Reasoning",
     "slug": "openai-unveils-gpt-5-real-time-multimodal-reasoning",
     "date": "2026-06-26",
