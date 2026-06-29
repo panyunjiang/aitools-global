@@ -1,18 +1,290 @@
 [
-  {"id":"chatgpt","name":"ChatGPT","url":"https://chat.openai.com","description":"OpenAI flagship conversational AI with GPT-5 Turbo, 256K context, multimodal vision, and real-time voice.","descriptionZh":"OpenAI 旗舰对话 AI，GPT-5 Turbo 模型，256K 上下文，多模态视觉和实时语音。","category":"text-generation","tags":["Chatbot","Multimodal","Writing","Coding"],"pricing":"Freemium","logo":"🤖","featured":true},
-  {"id":"claude","name":"Claude","url":"https://claude.ai","description":"Anthropic safe and reliable AI assistant with Opus 4.8 for deep reasoning and long-form content.","descriptionZh":"Anthropic 安全可靠的 AI 助手，Opus 4.8 支持深度推理和长文内容。","category":"text-generation","tags":["Chatbot","Research","Writing","Coding"],"pricing":"Freemium","logo":"🧠","featured":true},
-  {"id":"midjourney","name":"Midjourney","url":"https://midjourney.com","description":"Industry-leading AI image generator with v7 model, cinematic quality, and precise style control.","descriptionZh":"业界领先 AI 图像生成器，v7 模型支持电影级画质和精确风格控制。","category":"image-generation","tags":["Image","Art","Design","Creative"],"pricing":"Paid","logo":"🖼️","featured":true},
-  {"id":"cursor","name":"Cursor","url":"https://cursor.sh","description":"AI-first code editor built on VS Code with Agent mode, whole-codebase context, and autonomous refactoring.","descriptionZh":"AI 优先代码编辑器，基于 VS Code，Agent 模式支持全代码库理解和自主重构。","category":"code-assistant","tags":["IDE","Coding","Agent","Developer"],"pricing":"Freemium","logo":"⌨️","featured":true},
-  {"id":"github-copilot","name":"GitHub Copilot","url":"https://github.com/features/copilot","description":"GitHub AI pair programmer with multi-model support, code review, and deep GitHub ecosystem integration.","descriptionZh":"GitHub AI 结对编程助手，多模型支持、代码审查和深度 GitHub 生态集成。","category":"code-assistant","tags":["GitHub","Coding","IDE","Enterprise"],"pricing":"Paid","logo":"🐙","featured":false},
-  {"id":"runway","name":"Runway Gen-4","url":"https://runwayml.com","description":"Next-gen AI video generation with precise motion control, multi-shot editing, and cinematic quality output.","descriptionZh":"下一代 AI 视频生成，精确运动控制、多镜头编辑和电影级输出。","category":"video-generation","tags":["Video","Creative","Film","Motion"],"pricing":"Freemium","logo":"🎥","featured":true},
-  {"id":"elevenlabs","name":"ElevenLabs","url":"https://elevenlabs.io","description":"AI voice synthesis with 29 languages, voice cloning, and real-time streaming TTS.","descriptionZh":"最先进的 AI 语音合成，支持 29 种语言、声音克隆和实时流式 TTS。","category":"voice-ai","tags":["Voice","TTS","Cloning","Audio"],"pricing":"Freemium","logo":"🎤","featured":false},
-  {"id":"notion-ai","name":"Notion AI","url":"https://notion.so/product/ai","description":"AI-powered workspace with smart writing, auto-fill databases, and project automation.","descriptionZh":"AI 驱动的工作空间，智能写作、自动填充数据库和项目自动化。","category":"productivity","tags":["Workspace","Writing","Database","Team"],"pricing":"Paid","logo":"📝","featured":true},
-  {"id":"dalle","name":"DALL·E 4","url":"https://openai.com/dall-e-4","description":"OpenAI latest image model with photorealistic rendering, inpainting, and style-preserving edits.","descriptionZh":"OpenAI 最新图像生成模型，支持照片级渲染、局部重绘和风格保持编辑。","category":"image-generation","tags":["Image","OpenAI","Design","Creative"],"pricing":"Paid","logo":"🎨","featured":false},
-  {"id":"v0","name":"v0 by Vercel","url":"https://v0.dev","description":"Generate production-ready UI components from text prompts or images.","descriptionZh":"从文本提示或图片生成生产级 UI 组件。","category":"code-assistant","tags":["UI","Frontend","Design","React"],"pricing":"Freemium","logo":"🖌️","featured":false},
-  {"id":"perplexity","name":"Perplexity AI","url":"https://perplexity.ai","description":"AI-powered search engine with real-time citations, deep research, and fact-checking.","descriptionZh":"AI 搜索引擎，实时引用、深度研究模式和多源事实核查。","category":"productivity","tags":["Search","Research","Citations","Knowledge"],"pricing":"Freemium","logo":"🔍","featured":true},
-  {"id":"gemini","name":"Google Gemini","url":"https://gemini.google.com","description":"Google multimodal AI with 2M token context and Workspace integration.","descriptionZh":"Google 多模态 AI，200万 token 上下文和 Google Workspace 无缝集成。","category":"text-generation","tags":["Google","Multimodal","Research","Workspace"],"pricing":"Freemium","logo":"🌐","featured":true},
-  {"id":"suno","name":"Suno v5","url":"https://suno.ai","description":"AI music generator creating full songs with vocals in any genre or language.","descriptionZh":"AI 音乐生成器，可在任何风格和语言中生成包含人声和乐器的完整歌曲。","category":"voice-ai","tags":["Music","Audio","Creative","Generation"],"pricing":"Freemium","logo":"🎵","featured":false},
-  {"id":"replit","name":"Replit Agent","url":"https://replit.com","description":"Browser-based IDE with AI agent that builds full-stack apps from natural language.","descriptionZh":"浏览器 IDE，AI Agent 可从自然语言描述构建全栈应用。","category":"code-assistant","tags":["IDE","Full-stack","Browser","Agent"],"pricing":"Freemium","logo":"🔄","featured":false},
-  {"id":"stable-diffusion","name":"Stable Diffusion 4","url":"https://stability.ai","description":"Open-source image generation with SD4, superior composition and artistic control.","descriptionZh":"开源图像生成，SD4 模型在构图和艺术控制方面表现出色。","category":"image-generation","tags":["Open Source","Image","Art","Self-hosted"],"pricing":"Open Source","logo":"🖌️","featured":false},
-  {"id":"lovable","name":"Lovable","url":"https://lovable.dev","description":"AI full-stack app builder generating React + Supabase apps from a single prompt.","descriptionZh":"AI 全栈应用构建器，从单句提示生成完整的 React + Supabase 应用。","category":"code-assistant","tags":["Full-stack","React","Builder","No-code"],"pricing":"Freemium","logo":"💖","featured":false}
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "description": "OpenAI flagship conversational AI with GPT-5 Turbo, 256K context, multimodal vision, and real-time voice.",
+    "descriptionZh": "OpenAI 旗舰对话 AI，GPT-5 Turbo 模型，256K 上下文，多模态视觉和实时语音。",
+    "category": "text-generation",
+    "tags": [
+      "Chatbot",
+      "Multimodal",
+      "Writing",
+      "Coding"
+    ],
+    "pricing": "Freemium",
+    "logo": "🤖",
+    "featured": true
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "description": "Anthropic safe and reliable AI assistant with Opus 4.8 for deep reasoning and long-form content.",
+    "descriptionZh": "Anthropic 安全可靠的 AI 助手，Opus 4.8 支持深度推理和长文内容。",
+    "category": "text-generation",
+    "tags": [
+      "Chatbot",
+      "Research",
+      "Writing",
+      "Coding"
+    ],
+    "pricing": "Freemium",
+    "logo": "🧠",
+    "featured": true
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "description": "Industry-leading AI image generator with v7 model, cinematic quality, and precise style control.",
+    "descriptionZh": "业界领先 AI 图像生成器，v7 模型支持电影级画质和精确风格控制。",
+    "category": "image-generation",
+    "tags": [
+      "Image",
+      "Art",
+      "Design",
+      "Creative"
+    ],
+    "pricing": "Paid",
+    "logo": "🖼️",
+    "featured": true
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "url": "https://cursor.sh",
+    "description": "AI-first code editor built on VS Code with Agent mode, whole-codebase context, and autonomous refactoring.",
+    "descriptionZh": "AI 优先代码编辑器，基于 VS Code，Agent 模式支持全代码库理解和自主重构。",
+    "category": "code-assistant",
+    "tags": [
+      "IDE",
+      "Coding",
+      "Agent",
+      "Developer"
+    ],
+    "pricing": "Freemium",
+    "logo": "⌨️",
+    "featured": true
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "GitHub AI pair programmer with multi-model support, code review, and deep GitHub ecosystem integration.",
+    "descriptionZh": "GitHub AI 结对编程助手，多模型支持、代码审查和深度 GitHub 生态集成。",
+    "category": "code-assistant",
+    "tags": [
+      "GitHub",
+      "Coding",
+      "IDE",
+      "Enterprise"
+    ],
+    "pricing": "Paid",
+    "logo": "🐙",
+    "featured": false
+  },
+  {
+    "id": "runway",
+    "name": "Runway Gen-4",
+    "url": "https://runwayml.com",
+    "description": "Next-gen AI video generation with precise motion control, multi-shot editing, and cinematic quality output.",
+    "descriptionZh": "下一代 AI 视频生成，精确运动控制、多镜头编辑和电影级输出。",
+    "category": "video-generation",
+    "tags": [
+      "Video",
+      "Creative",
+      "Film",
+      "Motion"
+    ],
+    "pricing": "Freemium",
+    "logo": "🎥",
+    "featured": true
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "description": "AI voice synthesis with 29 languages, voice cloning, and real-time streaming TTS.",
+    "descriptionZh": "最先进的 AI 语音合成，支持 29 种语言、声音克隆和实时流式 TTS。",
+    "category": "voice-ai",
+    "tags": [
+      "Voice",
+      "TTS",
+      "Cloning",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "logo": "🎤",
+    "featured": false
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "url": "https://notion.so/product/ai",
+    "description": "AI-powered workspace with smart writing, auto-fill databases, and project automation.",
+    "descriptionZh": "AI 驱动的工作空间，智能写作、自动填充数据库和项目自动化。",
+    "category": "productivity",
+    "tags": [
+      "Workspace",
+      "Writing",
+      "Database",
+      "Team"
+    ],
+    "pricing": "Paid",
+    "logo": "📝",
+    "featured": true
+  },
+  {
+    "id": "dalle",
+    "name": "DALL·E 4",
+    "url": "https://openai.com/dall-e-4",
+    "description": "OpenAI latest image model with photorealistic rendering, inpainting, and style-preserving edits.",
+    "descriptionZh": "OpenAI 最新图像生成模型，支持照片级渲染、局部重绘和风格保持编辑。",
+    "category": "image-generation",
+    "tags": [
+      "Image",
+      "OpenAI",
+      "Design",
+      "Creative"
+    ],
+    "pricing": "Paid",
+    "logo": "🎨",
+    "featured": false
+  },
+  {
+    "id": "v0",
+    "name": "v0 by Vercel",
+    "url": "https://v0.dev",
+    "description": "Generate production-ready UI components from text prompts or images.",
+    "descriptionZh": "从文本提示或图片生成生产级 UI 组件。",
+    "category": "code-assistant",
+    "tags": [
+      "UI",
+      "Frontend",
+      "Design",
+      "React"
+    ],
+    "pricing": "Freemium",
+    "logo": "🖌️",
+    "featured": false
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "url": "https://perplexity.ai",
+    "description": "AI-powered search engine with real-time citations, deep research, and fact-checking.",
+    "descriptionZh": "AI 搜索引擎，实时引用、深度研究模式和多源事实核查。",
+    "category": "productivity",
+    "tags": [
+      "Search",
+      "Research",
+      "Citations",
+      "Knowledge"
+    ],
+    "pricing": "Freemium",
+    "logo": "🔍",
+    "featured": true
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "description": "Google multimodal AI with 2M token context and Workspace integration.",
+    "descriptionZh": "Google 多模态 AI，200万 token 上下文和 Google Workspace 无缝集成。",
+    "category": "text-generation",
+    "tags": [
+      "Google",
+      "Multimodal",
+      "Research",
+      "Workspace"
+    ],
+    "pricing": "Freemium",
+    "logo": "🌐",
+    "featured": true
+  },
+  {
+    "id": "suno",
+    "name": "Suno v5",
+    "url": "https://suno.ai",
+    "description": "AI music generator creating full songs with vocals in any genre or language.",
+    "descriptionZh": "AI 音乐生成器，可在任何风格和语言中生成包含人声和乐器的完整歌曲。",
+    "category": "voice-ai",
+    "tags": [
+      "Music",
+      "Audio",
+      "Creative",
+      "Generation"
+    ],
+    "pricing": "Freemium",
+    "logo": "🎵",
+    "featured": false
+  },
+  {
+    "id": "replit",
+    "name": "Replit Agent",
+    "url": "https://replit.com",
+    "description": "Browser-based IDE with AI agent that builds full-stack apps from natural language.",
+    "descriptionZh": "浏览器 IDE，AI Agent 可从自然语言描述构建全栈应用。",
+    "category": "code-assistant",
+    "tags": [
+      "IDE",
+      "Full-stack",
+      "Browser",
+      "Agent"
+    ],
+    "pricing": "Freemium",
+    "logo": "🔄",
+    "featured": false
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion 4",
+    "url": "https://stability.ai",
+    "description": "Open-source image generation with SD4, superior composition and artistic control.",
+    "descriptionZh": "开源图像生成，SD4 模型在构图和艺术控制方面表现出色。",
+    "category": "image-generation",
+    "tags": [
+      "Open Source",
+      "Image",
+      "Art",
+      "Self-hosted"
+    ],
+    "pricing": "Open Source",
+    "logo": "🖌️",
+    "featured": false
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "url": "https://lovable.dev",
+    "description": "AI full-stack app builder generating React + Supabase apps from a single prompt.",
+    "descriptionZh": "AI 全栈应用构建器，从单句提示生成完整的 React + Supabase 应用。",
+    "category": "code-assistant",
+    "tags": [
+      "Full-stack",
+      "React",
+      "Builder",
+      "No-code"
+    ],
+    "pricing": "Freemium",
+    "logo": "💖",
+    "featured": false
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "description": "Open-source platform providing a vast library of pre-trained AI models for NLP, computer vision, and more.",
+    "descriptionZh": "开源平台，提供大量预训练 AI 模型，用于自然语言处理、计算机视觉等。",
+    "category": "Model Hub",
+    "tags": [
+      "open source",
+      "NLP",
+      "models"
+    ],
+    "pricing": "Open Source",
+    "logo": "🤗",
+    "featured": false
+  }
 ]
