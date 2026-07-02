@@ -1,5 +1,35 @@
 [
   {
+    "title": "Meta Unveils Llama 4: Open-Source AI Model Rivals GPT-5",
+    "slug": "meta-unveils-llama-4",
+    "date": "2026-07-02",
+    "category": "AI Models",
+    "excerpt": "Meta's Llama 4 matches GPT-5 in reasoning and creativity, released under a permissive open-source license, sparking industry-wide debate on AI democratization.",
+    "tags": [
+      "Meta",
+      "Llama 4",
+      "open-source",
+      "GPT-5",
+      "AI models"
+    ],
+    "content": "# Meta Unveils Llama 4: Open-Source AI Model Rivals GPT-5\n\nIn a landmark move, Meta released Llama 4 on July 2, 2026, claiming it achieves performance parity with OpenAI's GPT-5 on standard benchmarks. The model, available under a permissive license, is designed to democratize access to cutting-edge AI.\n\n## Technical Highlights\n\nLlama 4 boasts 1.2 trillion parameters, trained on a mixture of text, code, and multimodal data. It introduces a novel Mixture-of-Experts (MoE) architecture that reduces inference costs by 40% compared to GPT-5. Key improvements include:\n\n- **Enhanced reasoning**: Scores 95% on GSM8K and 92% on MATH.\n- **Longer context**: Supports up to 256K tokens, useful for document analysis.\n- **Multilingual capabilities**: Trained on 100+ languages with native fluency in 50.\n\n## Industry Impact\n\nIndustry analysts view this as a strategic move to counter OpenAI's dominance. \"Llama 4's open-source nature could accelerate AI adoption in startups and research,\" said Dr. Alice Moore, AI researcher at Stanford. However, concerns about misuse remain, as the model can be fine-tuned without restrictions.\n\n## Reactions\n\nOpenAI declined to comment, but internal sources suggest they are accelerating GPT-6 development. Meanwhile, Hugging Face reported 50,000 downloads within the first hour.\n\n## Conclusion\n\nLlama 4 represents a shift towards open-source parity with proprietary models. The AI community eagerly awaits third-party evaluations to validate Meta's claims."
+  },
+  {
+    "title": "EU AI Act Enforcement Begins: New Compliance Requirements for AI Companies",
+    "slug": "eu-ai-act-enforcement-begins",
+    "date": "2026-07-02",
+    "category": "Regulation",
+    "excerpt": "The EU AI Act enters enforcement phase, mandating strict risk assessments and transparency for high-risk AI systems, with fines up to 7% of global turnover.",
+    "tags": [
+      "EU AI Act",
+      "regulation",
+      "compliance",
+      "AI governance",
+      "Europe"
+    ],
+    "content": "# EU AI Act Enforcement Begins: New Compliance Requirements for AI Companies\n\nAs of July 2, 2026, the European Union's AI Act enters its enforcement phase for high-risk AI systems. This marks the most comprehensive AI regulation globally, affecting any company operating in the EU market.\n\n## Key Requirements\n\n- **Risk classification**: Companies must self-assess and categorize AI systems as prohibited, high-risk, limited-risk, or minimal-risk.\n- **Transparency**: High-risk systems require detailed documentation, including training data sources, model performance, and human oversight measures.\n- **Conformity assessments**: Mandatory third-party audits for critical applications like healthcare, recruitment, and law enforcement.\n\n## Penalties\n\nNon-compliance can result in fines up to 7% of annual global turnover or €35 million, whichever is higher. Repeat offenders may face temporary bans from the EU market.\n\n## Industry Response\n\nMajor AI firms have scrambled to comply. Google and Microsoft announced dedicated compliance teams, while smaller startups worry about costs. \"The burden is heavy, but it sets a global standard for trustworthy AI,\" said EU Commissioner for Digital Affairs, Maria Torres.\n\n## Enforcement Challenges\n\nCritics argue that the Act's definitions are vague, leading to potential legal disputes. The EU plans to issue further guidance in Q4 2026.\n\n## Conclusion\n\nThe EU AI Act's enforcement signals a new era of AI governance. Companies must act swiftly to avoid penalties and build user trust."
+  },
+  {
     "title": "OpenAI Unveils GPT-5 with Revolutionary Reasoning Capabilities",
     "slug": "openai-gpt5-reasoning-capabilities",
     "date": "2026-07-01",
