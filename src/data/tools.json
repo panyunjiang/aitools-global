@@ -286,5 +286,21 @@
     "pricing": "Open Source",
     "logo": "🤗",
     "featured": false
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "An AI pair programmer that suggests code snippets and functions in real-time, integrated into IDEs like VS Code.",
+    "descriptionZh": "AI结对编程助手，实时建议代码片段和函数，集成于VS Code等IDE。",
+    "category": "Code Assistant",
+    "tags": [
+      "code generation",
+      "developer tool",
+      "productivity"
+    ],
+    "pricing": "Paid",
+    "logo": "🧑‍💻",
+    "featured": false
   }
 ]
