@@ -1,5 +1,19 @@
 [
   {
+    "title": "New EU AI Act Takes Effect: What Companies Need to Know",
+    "slug": "eu-ai-act-effective-2026",
+    "date": "2026-07-07",
+    "category": "Policy & Ethics",
+    "excerpt": "The European Union's comprehensive AI regulation comes into force today, imposing strict requirements on high-risk AI systems and banning certain uses.",
+    "tags": [
+      "EU AI Act",
+      "regulation",
+      "compliance",
+      "ethics"
+    ],
+    "content": "## New EU AI Act Takes Effect: What Companies Need to Know\n\nJuly 7, 2026 — After years of debate, the European Union's AI Act officially enters into force today. The legislation categorizes AI applications into risk levels: unacceptable, high, limited, and minimal.\n\n### Key Provisions\n\n- **Unacceptable Risk**: Banned applications include social scoring by governments, real-time biometric surveillance in public spaces (with limited exceptions), and AI systems that manipulate human behavior.\n- **High-Risk Systems**: These include AI used in critical infrastructure, education, employment, law enforcement, and migration. They must undergo conformity assessments, maintain human oversight, and provide transparency documentation.\n- **General Purpose AI**: Providers of foundation models like GPT-5 must comply with transparency obligations and copyright rules.\n\n### Penalties\n\nFines can reach up to 7% of global annual turnover or €35 million, whichever is higher.\n\n### Compliance Timeline\n\n- **By July 2027**: Rules for high-risk systems become fully applicable.\n- **By July 2028**: Obligations for general purpose AI take effect.\n\n### Industry Response\n\nMany tech companies have already started compliance efforts. \"We support sensible regulation,\" said a spokesperson for Google AI. \"But the definitions of 'high-risk' are broad and could stifle innovation.\"\n\n### Next Steps\n\nThe European Commission will establish a European AI Office to oversee enforcement. Companies are advised to audit their AI systems and consult legal experts.\n\nThis act sets a global precedent, with other regions like the US and Japan considering similar frameworks."
+  },
+  {
     "title": "OpenAI Unveils GPT-5 with Human-Level Reasoning",
     "slug": "openai-gpt5-human-reasoning-2026",
     "date": "2026-07-06",
