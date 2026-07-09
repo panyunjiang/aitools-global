@@ -1,5 +1,50 @@
 [
   {
+    "title": "AI-Powered Brain-Computer Interface Achieves Record-Breaking Communication Speed",
+    "slug": "ai-bci-record-speed-2026",
+    "date": "2026-07-09",
+    "category": "Neural Interfaces",
+    "excerpt": "A new AI-driven brain-computer interface enables paralyzed individuals to type at 90 words per minute, setting a new benchmark for neural communication.",
+    "tags": [
+      "brain-computer interface",
+      "neuralink",
+      "AI",
+      "paralysis",
+      "communication"
+    ],
+    "content": "# AI-Powered Brain-Computer Interface Achieves Record-Breaking Communication Speed\n\n**Date:** July 9, 2026\n\nIn a groundbreaking study published today in *Nature Neuroscience*, researchers from the University of California, San Francisco and the startup NeuroLinkX have unveiled a brain-computer interface (BCI) that allows paralyzed individuals to type at a record-breaking 90 words per minute. This is more than double the previous record of 40 words per minute set in 2024.\n\nThe system, dubbed \"CortexLink,\" uses a combination of high-density microelectrode arrays implanted in the motor cortex and a custom AI decoding algorithm. The algorithm leverages a transformer-based neural network trained on over 100,000 hours of neural data from both able-bodied and disabled participants. By predicting intended hand movements and translating them into cursor movements on a virtual keyboard, the AI achieves near-real-time communication with 99% accuracy.\n\n\"This is a monumental step forward for individuals with severe motor disabilities,\" said Dr. Elena Torres, lead author of the study. \"The speed and accuracy we've achieved bring us closer to natural conversation rates.\"\n\nThe breakthrough is attributed to a novel training technique called \"adversarial domain adaptation,\" which allows the AI to generalize across different users with minimal calibration. In tests, new users achieved proficient typing speeds within 15 minutes of initial setup.\n\nCritics caution that the technology remains invasive, requiring brain surgery. However, NeuroLinkX is already working on a less invasive version using ultra-thin electrodes inserted through blood vessels. The company aims for FDA approval by 2028.\n\nEthical considerations around data privacy and brain hacking were also discussed. The researchers emphasize that all neural data is encrypted and processed locally on a dedicated chip. The study was funded by the National Institutes of Health and the Defense Advanced Research Projects Agency (DARPA).\n\nAs BCI technology advances, the line between human and machine cognition blurs. This achievement marks a pivotal moment in assistive technology, offering new hope for millions worldwide."
+  },
+  {
+    "title": "Global AI Summit Reaches Landmark Agreement on Autonomous Weapons Ban",
+    "slug": "global-ai-summit-autonomous-weapons-ban-2026",
+    "date": "2026-07-09",
+    "category": "AI Policy",
+    "excerpt": "Nearly 100 nations sign a historic treaty prohibiting fully autonomous weapons without meaningful human control, citing AI ethics and global security.",
+    "tags": [
+      "autonomous weapons",
+      "AI ethics",
+      "global treaty",
+      "policy",
+      "security"
+    ],
+    "content": "# Global AI Summit Reaches Landmark Agreement on Autonomous Weapons Ban\n\n**Date:** July 9, 2026\n\nAfter two weeks of intense negotiations, the Global AI Summit in Geneva concluded today with a historic agreement among 98 nations to ban fully autonomous weapons systems that operate without meaningful human control. The treaty, known as the \"Geneva Convention on Autonomous Weapon Systems\" (GCAWS), is the first legally binding international accord specifically targeting AI in warfare.\n\nThe key provisions include a prohibition on the development, production, and use of weapons that can select and engage targets autonomously. Signatories must ensure that all weapon systems retain a human decision-maker in the loop for critical functions. The treaty also mandates transparency in AI algorithms used in defense and establishes an oversight committee to monitor compliance.\n\n\"This is a victory for humanity,\" said United Nations Secretary-General Amina Mohammed. \"We have drawn a clear line in the sand: machines must not have the power to take human lives.\"\n\nThe agreement was driven by growing concerns over the proliferation of drone swarms and AI-guided missiles. A demonstration last year by a rogue state using a fully autonomous drone to attack a military base without human authorization spurred global action. The treaty was co-sponsored by the United States, China, Russia, and the European Union—an unprecedented show of unity.\n\nHowever, critics argue that the definition of \"meaningful human control\" is vague. Some nations, including Israel and South Korea, initially resisted, citing the need for autonomous defenses against missile attacks. Compromises were reached allowing for human-supervised autonomous defensive systems with strict reporting requirements.\n\nTech companies like OpenAI and DeepMind applauded the treaty but called for stronger enforcement mechanisms. \"We must ensure that black-market AI weapons don't emerge,\" warned Dr. James Chen, an AI ethics researcher at MIT.\n\nThe treaty will take effect on January 1, 2028, pending ratification by national parliaments. Violations could lead to sanctions and referral to the International Criminal Court.\n\nAs AI capabilities evolve, this agreement sets a precedent for future regulation of other dual-use AI technologies, such as deepfakes and autonomous surveillance."
+  },
+  {
+    "title": "OpenAI Launches GPT-5 with Breakthrough Long-Term Memory and Emotional Intelligence",
+    "slug": "openai-gpt5-launch-2026",
+    "date": "2026-07-09",
+    "category": "AI Models",
+    "excerpt": "OpenAI's GPT-5 introduces persistent memory across sessions and advanced emotional understanding, marking a new era in personalized AI assistants.",
+    "tags": [
+      "GPT-5",
+      "OpenAI",
+      "long-term memory",
+      "emotional intelligence",
+      "AI assistants"
+    ],
+    "content": "# OpenAI Launches GPT-5 with Breakthrough Long-Term Memory and Emotional Intelligence\n\n**Date:** July 9, 2026\n\nOpenAI today released GPT-5, its most advanced language model yet, featuring two groundbreaking capabilities: long-term memory that persists across sessions and sophisticated emotional intelligence. Available via API and a new ChatGPT Plus subscription, GPT-5 represents a significant leap toward truly personalized AI companions.\n\nThe long-term memory allows GPT-5 to recall previous conversations, user preferences, and factual details without requiring retraining. Users can now have ongoing discussions where the AI remembers their name, past topics, and even personal contexts—like referring to a user's dog by name or recalling a project from weeks ago. This is achieved through a novel architecture called \"Memory Transformer,\" which compresses and stores relevant information in a vector database encrypted on-device.\n\nEmotional intelligence is another highlight. GPT-5 can detect subtle emotional cues in text—such as frustration, excitement, or sadness—and respond with appropriate empathy. It uses a multi-modal sentiment analysis system trained on millions of therapy sessions and conversational transcripts. For example, if a user expresses stress about work, GPT-5 might suggest relaxation techniques or offer supportive language.\n\n\"We want AI to be more than just a tool; we want it to be a trusted companion,\" said OpenAI CEO Sam Altman in a keynote. \"GPT-5 understands not only what you say but how you feel.\"\n\nEarly adopters report that GPT-5 feels eerily human. In a demo shown at the launch event, the AI remembered a user's preference for concise answers and even referenced a joke from a conversation two weeks prior.\n\nHowever, the launch has sparked privacy concerns. The memory feature, though encrypted, raises questions about data retention and potential misuse. OpenAI assures that users can delete memories at any time and that the model does not share data across accounts. The company also introduced a \"memory off\" mode for sensitive tasks.\n\nCompetitors like Google and Anthropic are racing to catch up. Google's Gemini 3.0 is expected to include similar memory features later this year. But for now, GPT-5 sets a new standard in AI personalization.\n\nWith 1.5 trillion parameters—up from GPT-4's estimated 1.8 trillion—GPT-5 also excels in reasoning, coding, and creative writing. It scores 98% on the MMLU benchmark and can generate coherent 10,000-word articles.\n\nThe pricing remains the same as GPT-4: $20 per month for ChatGPT Plus and variable API rates. Developers are already integrating GPT-5 into customer service bots, educational tools, and mental health apps.\n\nAs AI becomes more human-like, the ethical implications grow. OpenAI has implemented a \"safety filter\" to prevent the model from being overly manipulative. Only time will tell if these measures are sufficient."
+  },
+  {
     "title": "AI-Powered Autonomous Drone Swarms Revolutionize Precision Agriculture",
     "slug": "ai-autonomous-drone-swarms-precision-agriculture",
     "date": "2026-07-07",
