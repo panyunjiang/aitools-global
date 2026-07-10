@@ -1,5 +1,50 @@
 [
   {
+    "title": "Neuralink Successfully Implants First Wireless Brain Chip in Human Patient",
+    "slug": "neuralink-wireless-brain-chip-human-2026",
+    "date": "2026-07-10",
+    "category": "AI Research",
+    "excerpt": "Neuralink announces the first successful implantation of a wireless brain-computer interface in a human patient, enabling direct neural control of devices.",
+    "tags": [
+      "Neuralink",
+      "BCI",
+      "brain chip",
+      "neurotechnology",
+      "human trial"
+    ],
+    "content": "## Neuralink Achieves Milestone: First Wireless Brain Chip Implanted in Human\n\nIn a landmark announcement today, Neuralink confirmed the successful implantation of its wireless brain-computer interface (BCI) in a human patient. The surgery, performed at Stanford Medical Center, marks a significant step forward in neurotechnology and AI integration.\n\nThe device, called 'Link 2.0', is a coin-sized chip implanted in the motor cortex. It records neural signals and transmits them wirelessly to external devices. The patient, a 34-year-old man with quadriplegia, is now able to control a computer cursor and type using his thoughts alone.\n\n### Technical Breakthroughs\n\nThe Link 2.0 features over 2,048 electrodes on flexible threads, each thinner than a human hair. The wireless design eliminates the need for percutaneous connectors, reducing infection risk. Neuralink's AI algorithms decode neural patterns in real-time, achieving 95% accuracy in intent prediction.\n\n### Implications\n\nThis development opens the door to restoring mobility for paralyzed individuals, and could eventually enable direct brain-to-brain communication. However, ethical concerns remain regarding privacy, security, and potential misuse. Neuralink has pledged to prioritize safety and transparency.\n\n### Future Plans\n\nNeuralink plans to expand clinical trials to 10 more patients by end of 2026, and aims for commercial availability by 2028. The company is also exploring applications for memory enhancement and treating neurological disorders."
+  },
+  {
+    "title": "Google DeepMind's AI 'AlphaFold 3' Predicts Protein Interactions with Unprecedented Accuracy",
+    "slug": "deepmind-alphafold3-protein-interactions-2026",
+    "date": "2026-07-10",
+    "category": "AI Applications",
+    "excerpt": "DeepMind unveils AlphaFold 3, an AI model that can predict not only protein structures but also their interactions with other molecules, revolutionizing drug discovery.",
+    "tags": [
+      "DeepMind",
+      "AlphaFold 3",
+      "protein folding",
+      "drug discovery",
+      "AI in biology"
+    ],
+    "content": "## AlphaFold 3: A New Era for Molecular Biology\n\nGoogle DeepMind today released AlphaFold 3, the next generation of its protein folding AI. While AlphaFold 2 solved the problem of predicting static protein structures, AlphaFold 3 predicts dynamic interactions between proteins, DNA, RNA, and small molecules.\n\n### How It Works\n\nAlphaFold 3 uses a diffusion-based architecture similar to generative image models. It takes as input the sequences of multiple molecules and outputs a 3D structure of their complex, along with confidence scores. The model was trained on over 100 million known molecular interactions from the Protein Data Bank and new cryo-EM data.\n\n### Performance\n\nIn benchmarks, AlphaFold 3 achieved a median accuracy of 0.95 Å RMSD for protein-protein interfaces, significantly outperforming previous methods. It also predicts binding affinities with a correlation of 0.85 to experimental values.\n\n### Impact on Drug Discovery\n\nPharmaceutical companies are already using AlphaFold 3 to design new drugs. By accurately modeling how a drug candidate binds to its target, researchers can reduce costly trial-and-error. DeepMind has made the model available through a cloud API for academic and commercial use.\n\n### Broader Implications\n\nBeyond drug discovery, AlphaFold 3 aids in understanding diseases like Alzheimer's and cancer, where protein misfolding and aberrant interactions play key roles. The release includes a database of predicted interactions for all human proteins."
+  },
+  {
+    "title": "EU Implements World's First Comprehensive AI Liability Regulation",
+    "slug": "eu-ai-liability-regulation-2026",
+    "date": "2026-07-10",
+    "category": "AI Policy",
+    "excerpt": "The European Union enacts a groundbreaking law holding AI developers and deployers liable for harm caused by their systems, setting a global precedent.",
+    "tags": [
+      "EU",
+      "AI regulation",
+      "liability",
+      "policy",
+      "AI Act"
+    ],
+    "content": "## EU AI Liability Directive Comes into Force\n\nToday, the European Union's AI Liability Directive officially becomes law, establishing a uniform legal framework for damages caused by AI systems. This is the first comprehensive liability regime for AI in the world, complementing the earlier AI Act.\n\n### Key Provisions\n\nThe directive introduces a 'rebuttable presumption of causality' for high-risk AI systems: if a person suffers harm from such a system, the court presumes the AI's fault unless the developer can prove otherwise. For low-risk AI, standard fault-based liability applies.\n\n### Scope and Impact\n\nThe law covers all AI systems placed on the EU market, including those from non-EU companies. It applies to both physical harm (e.g., autonomous vehicle accidents) and non-material harm (e.g., discriminatory hiring). Companies must carry liability insurance for high-risk AI.\n\n### Reactions\n\nConsumer groups praise the regulation for protecting victims. Tech companies express concerns about stifling innovation and high compliance costs. The EU argues that clear liability rules will build trust and encourage responsible AI development.\n\n### Next Steps\n\nMember states have 18 months to transpose the directive into national law. The EU Commission will issue guidelines for calculating damages and handling cross-border cases. Other regions, including Japan and Canada, are closely watching the EU's approach."
+  },
+  {
     "title": "AI-Powered Brain-Computer Interface Achieves Record-Breaking Communication Speed",
     "slug": "ai-bci-record-speed-2026",
     "date": "2026-07-09",
