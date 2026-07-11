@@ -1,5 +1,47 @@
 [
   {
+    "title": "AI-Powered Drug Discovery Achieves First Human Trial Success",
+    "slug": "ai-drug-discovery-trial-success",
+    "date": "2026-07-11",
+    "category": "Healthcare AI",
+    "excerpt": "An AI-discovered drug candidate for a rare genetic disorder has passed Phase I trials, marking a milestone in AI-driven pharmaceutical development.",
+    "tags": [
+      "drug discovery",
+      "clinical trials",
+      "pharma AI",
+      "rare diseases"
+    ],
+    "content": "A groundbreaking achievement in AI-driven drug discovery was announced today as a drug candidate designed entirely by artificial intelligence successfully completed Phase I human trials. The compound, developed by biotech firm GenAI Therapeutics, targets a rare genetic disorder known as ADP-kinase deficiency, which affects approximately 1 in 50,000 people worldwide.\n\nThe AI system, named MedChemNet, was trained on millions of molecular structures and biological data points to predict potential drug candidates. It identified the molecule in just 18 months, a process that traditionally takes 3 to 5 years. The Phase I trial, conducted at three medical centers, demonstrated safety and tolerability in 40 healthy volunteers, with no serious adverse events reported.\n\n\"This is a watershed moment for AI in medicine,\" said Dr. Elena Vasquez, chief scientific officer at GenAI Therapeutics. \"We've shown that AI can not only design novel molecules but also predict their pharmacokinetics and toxicity with remarkable accuracy. This success paves the way for faster, cheaper drug development for many diseases, especially rare ones that have been neglected.\"\n\nThe trial also measured efficacy biomarkers, showing a 30% reduction in the toxic metabolite accumulation associated with the disorder. Phase II trials are expected to begin early next year, focusing on patients with the condition.\n\nIndustry analysts are optimistic. \"This validates the AI-first approach to drug discovery,\" said Michael Chen, a healthcare analyst at Morgan Stanley. \"We can expect to see more AI-designed drugs entering clinical pipelines, potentially reducing development costs by up to 60%.\"\n\nHowever, experts caution that Phase I success does not guarantee eventual approval. Only about 10% of drug candidates that enter Phase I eventually reach the market. Still, the speed and precision of the AI approach have attracted significant investment. GenAI Therapeutics has already secured $200 million in Series C funding to expand its pipeline to other rare diseases and cancer targets."
+  },
+  {
+    "title": "Global AI Regulation Bill Passes, Mandating Ethical Audits",
+    "slug": "global-ai-regulation-bill-passes",
+    "date": "2026-07-11",
+    "category": "Policy & Ethics",
+    "excerpt": "The International AI Governance Act has been ratified by 50 nations, requiring annual ethical audits for high-risk AI systems.",
+    "tags": [
+      "AI regulation",
+      "ethics",
+      "governance",
+      "international law"
+    ],
+    "content": "In a landmark move, the International AI Governance Act (IAIGA) was officially ratified today by 50 countries, including the United States, European Union members, China, Japan, and India. The treaty, which has been in negotiation for over three years, mandates comprehensive ethical auditing for any AI system deemed \"high-risk\" — defined as those used in critical infrastructure, healthcare, criminal justice, hiring, and education.\n\nUnder the act, companies deploying high-risk AI must conduct annual audits covering bias, transparency, accountability, and safety. Audits must be performed by accredited third-party firms, and results must be made publicly available. Non-compliance can result in fines of up to 5% of global annual revenue.\n\n\"This is a historic step toward ensuring AI benefits all of humanity,\" said UN Secretary-General Amara Osei. \"The IAIGA establishes a common framework that respects human rights while fostering innovation.\"\n\nThe act also creates an International AI Oversight Board, composed of experts from member nations, to update standards and mediate disputes. A key provision requires that AI systems provide clear explanations for their decisions when they significantly affect individuals.\n\nReactions have been mixed. Tech giants like Google and OpenAI have expressed support, noting they already conduct similar audits voluntarily. However, some smaller startups worry about compliance costs. \"The burden on smaller players is real,\" said Sunita Patel, founder of AI startup Veritas. \"But the clarity and consistency across borders might actually help us scale internationally.\"\n\nCivil liberties groups applaud the act but call for stronger enforcement mechanisms. \"The auditing requirement is a good start, but we need more teeth to prevent abuses,\" said David Kim of the Digital Rights Coalition.\n\nThe IAIGA will come into effect on January 1, 2027, giving companies six months to prepare. Member nations are now tasked with enacting domestic legislation to implement the treaty."
+  },
+  {
+    "title": "Generative AI Transforms Architecture: First Fully AI-Designed Skyscraper Breaks Ground",
+    "slug": "ai-designed-skyscraper-groundbreaking",
+    "date": "2026-07-11",
+    "category": "Generative AI",
+    "excerpt": "A 60-story skyscraper designed entirely by generative AI will begin construction in Dubai, promising unprecedented efficiency and sustainability.",
+    "tags": [
+      "generative AI",
+      "architecture",
+      "construction",
+      "sustainability"
+    ],
+    "content": "The future of architecture arrived today as groundbreaking commenced on the \"Neoform Tower\" in Dubai, the world's first skyscraper designed entirely by generative artificial intelligence. The 60-story mixed-use building, developed by Emaar Properties in collaboration with AI design firm Autonome, is expected to be completed by 2029.\n\nThe AI system, called ArchiGen, was fed design parameters including site constraints, local climate data, building codes, and sustainability goals. It generated over 10,000 design iterations before converging on an organic, wind-optimized form that reduces structural load by 25% compared to conventional designs.\n\n\"The AI didn't just optimize a human design; it created a completely novel structural system inspired by bone trabeculae,\" said lead architect Dr. Fatima Al-Rashid. \"The result is a building that uses 30% less concrete while achieving LEED Platinum certification.\"\n\nThe tower's facade features a self-shading exoskeleton that adjusts to solar angles, reducing cooling costs by 40%. Inside, the floor plans were dynamically optimized for natural light and airflow, with apartment layouts that vary each floor based on AI-generated preferences from thousands of resident surveys.\n\n\"This project demonstrates how generative AI can push beyond human imagination,\" said Autonome CEO James Kwon. \"We're not replacing architects; we're giving them superpowers.\"\n\nConstruction will also be AI-managed, with drones and robots performing tasks like welding and concrete pouring. Sensors will monitor progress in real time, adjusting schedules to avoid delays.\n\nCritics worry about job displacement in the architecture and construction sectors. \"We need to ensure that the benefits of this technology are shared broadly,\" said union representative Carla Mendes. \"But the potential for safer, more sustainable buildings is undeniable.\"\n\nThe Neoform Tower is expected to become a landmark, drawing tourists and inspiring a new wave of AI-designed buildings. Emaar has already announced plans for two more AI-designed projects in Saudi Arabia and Singapore."
+  },
+  {
     "title": "Meta Unveils Llama 4: Open-Source Multimodal AI with Human-Level Reasoning",
     "slug": "meta-llama-4-open-source-multimodal-ai",
     "date": "2026-07-10",
