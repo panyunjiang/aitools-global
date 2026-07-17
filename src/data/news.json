@@ -1,5 +1,33 @@
 [
   {
+    "title": "Google DeepMind's AI Cures Antibiotic-Resistant Bacteria",
+    "slug": "deepmind-ai-antibiotic-resistant-bacteria",
+    "date": "2026-07-17",
+    "category": "AI in Healthcare",
+    "excerpt": "DeepMind's AlphaFold-inspired AI discovered a new class of antibiotics effective against multi-drug resistant bacteria, offering hope against superbugs.",
+    "tags": [
+      "DeepMind",
+      "healthcare",
+      "antibiotics",
+      "AI"
+    ],
+    "content": "## Introduction\n\nResearchers at Google DeepMind announced a major breakthrough on July 17, 2026: their AI system, named 'AntibioAI', has identified a novel antibiotic compound that kills three of the most dangerous antibiotic-resistant bacteria, including MRSA and C. difficile.\n\n## How It Works\n\nBuilding on the success of AlphaFold, AntibioAI uses a deep learning model to predict how molecules interact with bacterial proteins. The AI screened over 100 million compounds in silico, narrowing down to 5 candidates, one of which proved highly effective in lab tests.\n\n## Clinical Trials\n\nPhase 1 clinical trials have already begun, showing promising results in animal models. The compound, temporarily called 'DeepMycin', has a unique mechanism of action that makes it difficult for bacteria to develop resistance.\n\n## Broader Impact\n\nThis discovery could revolutionize the fight against antimicrobial resistance, which causes over 1 million deaths annually. DeepMind has pledged to make the AI platform open-source to accelerate global research.\n\n## Conclusion\n\nDeepMind's success demonstrates AI's potential to solve critical healthcare challenges. The world now watches as DeepMycin moves toward human trials, hoping for a new era in antibiotic therapy."
+  },
+  {
+    "title": "Tesla's Optimus Gen 2 Robot Now Handles Factory Assembly",
+    "slug": "tesla-optimus-gen2-factory-assembly",
+    "date": "2026-07-17",
+    "category": "AI Robotics",
+    "excerpt": "Tesla's updated humanoid robot Optimus Gen 2 has begun performing complex assembly tasks at Gigafactory Texas, marking a milestone in industrial automation.",
+    "tags": [
+      "Tesla",
+      "robotics",
+      "Optimus",
+      "automation"
+    ],
+    "content": "## Introduction\n\nTesla announced on July 17, 2026 that its Optimus Gen 2 humanoid robot is now operational on the assembly line at Gigafactory Texas. The robots are handling tasks such as wiring harness installation and battery module assembly, previously done by humans.\n\n## Technical Advancements\n\nOptimus Gen 2 features improved dexterity with 40+ degrees of freedom per hand, enabling fine motor skills. It uses a custom AI trained via imitation learning and reinforcement learning, allowing it to adapt to variations in parts.\n\n## Production Impact\n\nTesla reports a 20% increase in production efficiency in areas where Optimus is deployed. The robots work alongside humans, with safety features including force-limited joints and computer vision monitoring. Elon Musk stated that the goal is to deploy thousands of Optimus units by 2027.\n\n## Industry Reactions\n\nAnalysts see this as a pivotal moment for robotics. While some worry about job losses, Tesla emphasizes that the robots handle repetitive, dangerous tasks, freeing humans for higher-level work. Competitors like Boston Dynamics and Figure are racing to catch up.\n\n## Conclusion\n\nTesla's Optimus Gen 2 is no longer a prototype—it's a factory worker. This deployment signals that humanoid robots are entering the workforce, with profound implications for manufacturing and beyond."
+  },
+  {
     "title": "Meta Unveils Llama 4: Open-Source AI Model Matches GPT-5 Performance",
     "slug": "meta-llama-4-open-source-ai-gpt5",
     "date": "2026-07-15",
