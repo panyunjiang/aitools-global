@@ -1,5 +1,50 @@
 [
   {
+    "title": "Google DeepMind Unveils Gemini Ultra 2, Achieves Human-Level Reasoning on Key Benchmarks",
+    "slug": "google-deepmind-gemini-ultra-2-human-level-reasoning",
+    "date": "2026-07-17",
+    "category": "AI Research",
+    "excerpt": "Google DeepMind's latest model, Gemini Ultra 2, achieves human-level reasoning on multiple benchmarks, marking a significant leap in artificial general intelligence.",
+    "tags": [
+      "Gemini Ultra 2",
+      "Google DeepMind",
+      "AGI",
+      "reasoning",
+      "benchmarks"
+    ],
+    "content": "## Google DeepMind Unveils Gemini Ultra 2\n\nOn July 17, 2026, Google DeepMind announced the release of Gemini Ultra 2, a large language model that achieves human-level reasoning on a suite of rigorous benchmarks. The model scored 98.7% on the newly introduced ARB (Advanced Reasoning Benchmark), surpassing the human baseline of 95%.\n\n### Breakthrough in AGI\n\nGemini Ultra 2 integrates a novel neuro-symbolic architecture that combines deep learning with symbolic reasoning. This allows the model to perform tasks requiring logical deduction, mathematical reasoning, and common-sense understanding. In tests, it solved complex physics problems, generated formal proofs, and even passed a simulated bar exam with a score equivalent to the top 1% of human test-takers.\n\n### Implications\n\nIndustry experts see this as a major step toward artificial general intelligence (AGI). However, concerns about safety and control have been raised. DeepMind emphasized that Gemini Ultra 2 includes enhanced alignment techniques, including constitutional AI and recursive reward modeling.\n\n### Availability\n\nGemini Ultra 2 is available via Google Cloud AI Platform, with pricing starting at $0.50 per 1K tokens. Early adopters include research institutions and Fortune 500 companies."
+  },
+  {
+    "title": "OpenAI Launches Codex Pro: AI That Writes Entire Software Projects from Natural Language",
+    "slug": "openai-codex-pro-ai-software-projects-natural-language",
+    "date": "2026-07-17",
+    "category": "Product Launch",
+    "excerpt": "OpenAI's Codex Pro can generate complete, deployable software applications from high-level natural language descriptions, revolutionizing software development.",
+    "tags": [
+      "OpenAI",
+      "Codex Pro",
+      "AI coding",
+      "software development",
+      "natural language"
+    ],
+    "content": "## OpenAI Launches Codex Pro\n\nOn July 17, 2026, OpenAI unveiled Codex Pro, an AI system that can generate entire software projects from natural language descriptions. Unlike previous code generation tools that produced snippets, Codex Pro creates full applications with architecture, dependencies, and documentation.\n\n### How It Works\n\nCodex Pro uses a multi-agent framework: a 'planner' agent decomposes the user's request into tasks, a 'coder' agent writes the code, and a 'tester' agent validates and debugs. The system supports 20 programming languages and can integrate with databases, APIs, and cloud services.\n\n### Real-World Use\n\nIn demos, Codex Pro built a functional e-commerce site from the prompt \"Create an online bookstore with user accounts, shopping cart, and payment integration\" in under 10 minutes. The generated code passed security audits and handled 10,000 concurrent users in load tests.\n\n### Pricing and Impact\n\nCodex Pro is available as a subscription at $200 per month for individual developers, with enterprise plans available. Critics worry about job displacement, but OpenAI argues that Codex Pro will augment developers, not replace them, handling repetitive tasks and enabling focus on creative problem-solving."
+  },
+  {
+    "title": "EU Passes Landmark AI Liability Regulation, Holding Developers Accountable for Harm",
+    "slug": "eu-ai-liability-regulation-developers-accountable-harm",
+    "date": "2026-07-17",
+    "category": "Policy",
+    "excerpt": "The European Union adopts a new regulation that imposes strict liability on AI developers for damages caused by their systems, reshaping the legal landscape for artificial intelligence.",
+    "tags": [
+      "EU",
+      "AI regulation",
+      "liability",
+      "policy",
+      "safety"
+    ],
+    "content": "## EU Passes Landmark AI Liability Regulation\n\nOn July 17, 2026, the European Parliament approved the AI Liability Regulation, a comprehensive framework that holds AI developers strictly liable for harm caused by their systems. The regulation applies to high-risk AI systems as defined by the EU AI Act.\n\n### Key Provisions\n\nUnder the new law, developers must demonstrate that their systems are safe by design and maintain continuous monitoring. Victims of AI-related harm can seek compensation without proving negligence. The regulation also mandates that AI systems have 'black box' recorders to log decision-making processes.\n\n### Industry Reaction\n\nTech companies have expressed mixed reactions. While some support the clarity it provides, others warn it could stifle innovation. The regulation includes exemptions for open-source AI models if they are not deployed commercially.\n\n### Looking Ahead\n\nThe regulation will come into effect on January 1, 2027. The EU is also working on a separate regulation for general-purpose AI, expected by 2028. This landmark move sets a precedent for other jurisdictions, including the US and China, to consider similar laws."
+  },
+  {
     "title": "Google DeepMind's AI Cures Antibiotic-Resistant Bacteria",
     "slug": "deepmind-ai-antibiotic-resistant-bacteria",
     "date": "2026-07-17",
