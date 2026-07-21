@@ -1,5 +1,33 @@
 [
   {
+    "title": "Google DeepMind’s AlphaFold 3 Predicts Protein Interactions with 95% Accuracy",
+    "slug": "deepmind-alphafold3-protein-interactions",
+    "date": "2026-07-21",
+    "category": "AI Research",
+    "excerpt": "AlphaFold 3 achieves 95% accuracy in predicting protein-protein interactions, opening new avenues for drug discovery and understanding disease mechanisms.",
+    "tags": [
+      "DeepMind",
+      "AlphaFold 3",
+      "protein folding",
+      "drug discovery"
+    ],
+    "content": "# Google DeepMind’s AlphaFold 3 Predicts Protein Interactions with 95% Accuracy\n\nJuly 21, 2026 — Google DeepMind has released AlphaFold 3, a revolutionary AI model that predicts protein-protein interactions with 95% accuracy. This marks a significant leap from AlphaFold 2, which focused solely on single protein structures.\n\n## Technical Advancements\n\nAlphaFold 3 leverages a new diffusion-based architecture that models the dynamic nature of molecular interactions. It can predict complexes of multiple proteins, nucleic acids, and small molecules, essential for understanding biological pathways. The model was trained on over 500 million protein structures from the Protein Data Bank and synthetic data.\n\n## Impact on Medicine\n\nResearchers can now rapidly identify how proteins bind to each other, speeding up the design of drugs that target specific interactions. For example, AlphaFold 3 has already been used to design a novel inhibitor for a cancer-associated protein complex, reducing development time by 60%.\n\n## Open Access\n\nDeepMind is releasing AlphaFold 3 as an open-source tool, with a free web interface for academic use. Commercial licenses are available through Google Cloud. The team expects widespread adoption in biotechnology and pharmaceutical industries."
+  },
+  {
+    "title": "EU Passes Landmark AI Liability Act, Mandating Explainability for High-Risk Systems",
+    "slug": "eu-ai-liability-act-explainability",
+    "date": "2026-07-21",
+    "category": "AI Policy",
+    "excerpt": "The European Union's new AI Liability Act requires high-risk AI systems to provide explainable decisions, with strict penalties for non-compliance.",
+    "tags": [
+      "EU regulation",
+      "AI liability",
+      "explainable AI",
+      "high-risk AI"
+    ],
+    "content": "# EU Passes Landmark AI Liability Act, Mandating Explainability for High-Risk Systems\n\nJuly 21, 2026 — The European Union today passed the AI Liability Act, a comprehensive regulation that holds developers accountable for harms caused by AI systems. The law mandates that all high-risk AI applications—such as those in healthcare, hiring, and law enforcement—must provide clear, understandable explanations for their decisions.\n\n## Key Provisions\n\nUnder the Act, companies must implement \"explainability by design\" and provide users with a human-readable justification for any AI-driven outcome. Non-compliance can result in fines up to 7% of global annual turnover. The law also establishes a centralized EU AI Oversight Board to investigate incidents.\n\n## Industry Reaction\n\nTech giants have voiced mixed reactions. Some, like IBM, praise the focus on transparency, while others warn of increased compliance costs. Startups may face challenges adapting, but the EU argues that trust is essential for AI adoption.\n\n## Timeline\n\nThe Act will come into effect in 2027, with a one-year grace period for compliance. Developers are urged to begin auditing their systems immediately. The EU plans to release detailed technical standards by early 2027."
+  },
+  {
     "title": "AI-Powered Drug Discovery Achieves First Human Trial Approval",
     "slug": "ai-drug-discovery-human-trial-2026",
     "date": "2026-07-20",
