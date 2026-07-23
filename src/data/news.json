@@ -1,5 +1,33 @@
 [
   {
+    "title": "DeepMind's AlphaFold 3 Predicts Protein Folding in Real Time",
+    "slug": "deepmind-alphafold3-real-time-protein-folding",
+    "date": "2026-07-23",
+    "category": "AI in Science",
+    "excerpt": "DeepMind's AlphaFold 3 can now predict protein structures in real time, accelerating drug discovery and personalized medicine.",
+    "tags": [
+      "DeepMind",
+      "AlphaFold 3",
+      "protein folding",
+      "drug discovery"
+    ],
+    "content": "# DeepMind's AlphaFold 3 Predicts Protein Folding in Real Time\n\nJuly 23, 2026 – DeepMind, a subsidiary of Alphabet, has released AlphaFold 3, an AI system capable of predicting protein structures in real time. This marks a significant advancement over its predecessor, which took hours to compute a single structure.\n\n## Speed and Accuracy\n\nAlphaFold 3 uses a novel architecture called \"Diffusion Transformer\" to fold proteins in milliseconds with accuracy comparable to experimental methods. The model was trained on a dataset of over 200 million known protein sequences and structures.\n\n## Impact on Medicine\n\nReal-time protein folding prediction opens the door to rapid drug development. Researchers can now simulate how drugs interact with target proteins instantly, reducing the need for costly lab experiments. Personalized medicine could also benefit, as doctors can analyze patient-specific protein variants on the fly.\n\n## Broader Scientific Use\n\nBeyond medicine, AlphaFold 3 is being used in synthetic biology to design new enzymes, and in agriculture to engineer crops with improved traits.\n\n## Availability\n\nDeepMind has made AlphaFold 3 available via a public API, with free access for academic research. Commercial licenses are also available.\n\n*This article was written with assistance from AI.*"
+  },
+  {
+    "title": "Autonomous Taxis Go Mainstream: Waymo and Tesla Lead Charge",
+    "slug": "autonomous-taxis-mainstream-waymo-tesla",
+    "date": "2026-07-23",
+    "category": "Autonomous Vehicles",
+    "excerpt": "Waymo and Tesla have launched autonomous taxi services in major US cities, marking a new era for transportation.",
+    "tags": [
+      "self-driving cars",
+      "Waymo",
+      "Tesla",
+      "autonomous taxis"
+    ],
+    "content": "# Autonomous Taxis Go Mainstream: Waymo and Tesla Lead Charge\n\nJuly 23, 2026 – Autonomous taxis have become a reality in several US cities, with Waymo and Tesla launching commercial services. This milestone comes after years of testing and regulatory approvals.\n\n## Waymo's Expansion\n\nWaymo, a subsidiary of Alphabet, has expanded its autonomous taxi service to cover all of San Francisco, Los Angeles, and Phoenix. The company uses a fleet of electric Jaguar I-Paces equipped with LIDAR, cameras, and radar. Riders can hail a Waymo via a smartphone app, with fares comparable to Uber and Lyft.\n\n## Tesla's Entry\n\nTesla has also launched its \"Cybercab\" service in Austin, Texas, and select parts of California. Unlike Waymo, Tesla relies solely on cameras and neural networks, without LIDAR. CEO Elon Musk claims the system achieves higher safety than human drivers.\n\n## Safety Record\n\nBoth companies report accident rates significantly lower than human-driven vehicles. However, incidents still occur, including a recent collision in Phoenix where a Waymo struck a pedestrian jaywalking. Regulators are closely monitoring.\n\n## Economic and Social Impact\n\nThe rise of autonomous taxis is expected to reduce car ownership, lower traffic congestion, and decrease emissions. However, it also threatens millions of driving jobs. Labor unions are pushing for retraining programs and a universal basic income.\n\n## Future Outlook\n\nBy 2027, autonomous taxis could be in 20 major US cities. Both Waymo and Tesla are also exploring autonomous trucking and delivery services.\n\n*This article was written with assistance from AI.*"
+  },
+  {
     "title": "Google DeepMind’s AlphaFold 3 Predicts Protein Interactions with 95% Accuracy",
     "slug": "deepmind-alphafold3-protein-interactions",
     "date": "2026-07-21",
