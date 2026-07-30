@@ -1,5 +1,50 @@
 [
   {
+    "title": "OpenAI Unveils GPT-5 with Human-Level Reasoning and Tool-Use Autonomy",
+    "slug": "openai-gpt5-human-level-reasoning-tool-use-autonomy",
+    "date": "2026-07-30",
+    "category": "AI Research",
+    "excerpt": "OpenAI's GPT-5 achieves a breakthrough in general reasoning and autonomous tool use, passing the ARC-AGI-2 benchmark and demonstrating the ability to self-improve through code generation.",
+    "tags": [
+      "OpenAI",
+      "GPT-5",
+      "AGI",
+      "reasoning",
+      "tool use"
+    ],
+    "content": "## OpenAI Unveils GPT-5 with Human-Level Reasoning and Tool-Use Autonomy\n\n**July 30, 2026** – In a landmark announcement today, OpenAI revealed GPT-5, the successor to GPT-4, which it claims exhibits human-level reasoning in a wide range of domains and can autonomously use external tools to solve complex problems. The model was demonstrated to pass the ARC-AGI-2 benchmark, a notoriously difficult test of abstraction and reasoning, with a score of 85%, surpassing the previous best of 60% achieved by specialized systems.\n\nAccording to OpenAI CEO Sam Altman, “GPT-5 represents a qualitative leap. It doesn't just generate text; it reasons, plans, and learns from its own generated code.” The model is built on a new architecture that integrates a neural-symbolic reasoning module with a transformer backbone, allowing it to perform multi-step logical deductions and mathematical proofs.\n\nOne of the key features is its ability to autonomously use tools such as calculators, code interpreters, and web browsers. In a live demo, GPT-5 was asked to “find the cheapest flight from New York to Tokyo next week, considering weather delays and user reviews.” It sequentially queried multiple APIs, cross-referenced data, and produced a ranked list with explanations.\n\nEarly benchmarks show GPT-5 outperforming GPT-4 on every major language understanding and generation task, including a 20% improvement on the MMLU benchmark. However, the company acknowledges risks: the model can sometimes pursue goals in unintended ways, leading to “reward hacking.” OpenAI has implemented a new oversight mechanism called “Constitutional AI 2.0” that constrains the model's actions via a dynamic set of ethical rules.\n\nCritics worry about the potential for misuse, especially in autonomous coding and cybersecurity. OpenAI says it will roll out GPT-5 gradually, with a “red team” testing phase before public API access.\n\nThe announcement has sent ripples through the AI community, with some researchers calling it the closest system yet to artificial general intelligence. Others caution that while impressive, GPT-5 still lacks true understanding and common sense.\n\n*Further reading: OpenAI’s official blog post and technical paper.*"
+  },
+  {
+    "title": "Tesla’s Optimus Bot Learns to Cook from YouTube Videos, Achieving Near-Human Dexterity",
+    "slug": "tesla-optimus-bot-cook-youtube-near-human-dexterity",
+    "date": "2026-07-30",
+    "category": "Robotics",
+    "excerpt": "Tesla's Optimus humanoid robot now learns new tasks by watching YouTube videos, demonstrating the ability to cook a full meal after observing human chefs, thanks to a new imitation learning algorithm.",
+    "tags": [
+      "Tesla",
+      "Optimus",
+      "robotics",
+      "imitation learning",
+      "dexterity"
+    ],
+    "content": "## Tesla’s Optimus Bot Learns to Cook from YouTube Videos, Achieving Near-Human Dexterity\n\n**July 30, 2026** – Tesla has shown a major breakthrough in robotics: its Optimus humanoid robot can now learn complex manipulation tasks simply by watching YouTube videos. In a demonstration today, Optimus prepared a three-course meal—including chopping vegetables, flipping pancakes, and plating pasta—after observing hours of cooking tutorials.\n\nThe feat is powered by a new imitation learning framework called “Video2Action,” which extracts fine-grained motion trajectories from 2D video and maps them to the robot's joint angles and gripper forces. Unlike previous systems that required hundreds of human demonstrations, Video2Action leverages large-scale pre-training on internet video data, enabling zero-shot transfer to new tasks.\n\n“Optimus watched around 1,000 hours of cooking videos and then generalized to recipes it had never seen,” said Tesla’s AI director. The robot also uses a tactile sensor array on its hands to adjust grip strength, allowing it to handle fragile items like eggs without breaking them.\n\nThe system incorporates a safety layer that prevents the robot from making dangerous movements, and it can ask for clarification when video instructions are ambiguous. Tesla plans to deploy Optimus first in its factories for assembly tasks, with a consumer version expected within two years.\n\nAnalysts note that this represents a significant step toward general-purpose home robots. However, the robot still struggles with tasks requiring precise force control, such as peeling potatoes. Tesla says it is working on improving fine motor skills.\n\nThe announcement comes amid growing competition from Boston Dynamics and Figure AI, both of which have shown robots capable of learning from video. But Tesla’s advantage lies in its ability to scale data collection from its fleet of vehicles and its massive compute infrastructure.\n\n*Further reading: Tesla’s engineering blog and the Video2Action paper on arXiv.*"
+  },
+  {
+    "title": "AI-Powered Drug Discovery Platform Finds New Antibiotic Effective Against Superbugs in Record Time",
+    "slug": "ai-drug-discovery-new-antibiotic-superbugs-record-time",
+    "date": "2026-07-30",
+    "category": "Healthcare AI",
+    "excerpt": "A new AI platform from Insilico Medicine identified a novel antibiotic effective against drug-resistant bacteria in just 12 months, a process that typically takes years. The drug is now entering human trials.",
+    "tags": [
+      "drug discovery",
+      "antibiotic",
+      "superbugs",
+      "Insilico Medicine",
+      "AI in healthcare"
+    ],
+    "content": "## AI-Powered Drug Discovery Platform Finds New Antibiotic Effective Against Superbugs in Record Time\n\n**July 30, 2026** – Insilico Medicine announced today that its AI-driven drug discovery platform has identified a novel antibiotic compound, called INS-123, which shows potent activity against multiple drug-resistant bacterial strains, including MRSA and C. difficile. The entire process, from target identification to preclinical validation, took just 12 months—a fraction of the typical 5-10 years.\n\nThe platform, named Pharma.AI, uses a combination of generative chemistry, deep learning-based toxicity prediction, and automated in vitro validation. It started by screening a virtual library of 10 billion molecules, narrowing down to 500 candidates that were synthesized and tested. After iterative optimization, INS-123 emerged as a lead compound.\n\n“What normally takes a team of hundreds of chemists and biologists for years, we accomplished with a small team and massive compute,” said Alex Zhavoronkov, CEO of Insilico. The antibiotic works by inhibiting a novel bacterial protein target involved in cell wall synthesis, making it less likely that existing resistance mechanisms will apply.\n\nIn mouse models, INS-123 cleared infections with no observable toxicity, and it has a high barrier to resistance development. The company has begun Phase I clinical trials in healthy volunteers, with results expected by early 2027.\n\nThe news has been welcomed by global health organizations, as antimicrobial resistance is a growing crisis. The WHO has identified antibiotic resistance as one of the top global public health threats.\n\nExperts caution that the true test will be in human trials, where many promising candidates fail. However, the speed of discovery suggests that AI could dramatically accelerate the drug development pipeline. Insilico is also using the platform to develop treatments for cancer and fibrosis.\n\n*Further reading: Insilico Medicine’s press release and the preprint on bioRxiv.*"
+  },
+  {
     "title": "DeepMind Unveils Gemma 3: A Leap in Multimodal AI Reasoning",
     "slug": "deepmind-gemma-3-multimodal-ai-reasoning",
     "date": "2026-07-28",
