@@ -302,5 +302,37 @@
     "pricing": "Paid",
     "logo": "🧑‍💻",
     "featured": false
+  },
+  {
+    "id": "openai-chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "description": "ChatGPT is an AI-powered conversational agent developed by OpenAI, capable of generating human-like text, answering questions, and assisting with a wide range of tasks including writing, coding, and learning.",
+    "descriptionZh": "ChatGPT是由OpenAI开发的AI对话助手，能生成类似人类的文本，回答问题，并协助写作、编程、学习等多种任务。",
+    "category": "Chatbot",
+    "tags": [
+      "conversational AI",
+      "writing",
+      "coding"
+    ],
+    "pricing": "Freemium",
+    "logo": "💬",
+    "featured": true
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "description": "Gemini is Google's multimodal AI model family, integrated into various products, offering advanced capabilities in text, image, audio, and video understanding and generation.",
+    "descriptionZh": "Gemini是谷歌的多模态AI模型系列，集成于多个产品，提供文本、图像、音频和视频的理解与生成能力。",
+    "category": "Multimodal AI",
+    "tags": [
+      "multimodal",
+      "generative AI",
+      "Google"
+    ],
+    "pricing": "Freemium",
+    "logo": "✨",
+    "featured": true
   }
 ]
