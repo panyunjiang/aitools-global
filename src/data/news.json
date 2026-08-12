@@ -1,5 +1,35 @@
 [
   {
+    "title": "Sakana AI Unveils Self-Improving 'Evolution 2' Model, Cuts Training Costs by 40%",
+    "slug": "sakana-ai-evolution-2-self-improving-model",
+    "date": "2026-08-12",
+    "category": "Research",
+    "excerpt": "Tokyo-based Sakana AI introduces Evolution 2, a self-improving model that autonomously refines its architecture, slashing training costs and outperforming prior benchmarks.",
+    "tags": [
+      "self-improving AI",
+      "Sakana AI",
+      "model efficiency",
+      "evolutionary algorithms",
+      "cost reduction"
+    ],
+    "content": "## Sakana AI Unveils Self-Improving 'Evolution 2' Model\n\nTokyo-based Sakana AI has announced the release of Evolution 2, a groundbreaking self-improving AI model that leverages evolutionary algorithms to automatically refine its own architecture and training data. The company claims this new approach reduces training costs by 40% while achieving state-of-the-art performance on multiple benchmarks.\n\n### The Evolutionary Advantage\n\nUnlike traditional models that rely on human-designed architectures, Evolution 2 starts with a basic transformer and iteratively mutates its layers, attention mechanisms, and activation functions using a fitness function that measures both accuracy and efficiency. Over thousands of generations, the model discovers novel configurations that human engineers might never have considered. In internal tests, Evolution 2 outperformed its predecessor by 12% on the MMLU benchmark while using 30% fewer parameters.\n\n### Cost and Environmental Impact\n\nThe reduced training cost is a major selling point. Sakana AI reports that training Evolution 2 on 100B tokens required only 60% of the compute compared to a similar-sized model from a year ago. This is achieved through dynamic architecture pruning and selective data sampling, where the model focuses on the most informative examples. As a result, the carbon footprint per training run has decreased significantly, aligning with the industry's push for sustainable AI.\n\n### Implications for the AI Community\n\nExperts see this as a step towards fully automated AI development. \"Evolution 2 demonstrates that we can decouple model design from human intuition,\" said Dr. Yuki Tanaka, a research fellow at the AI Safety Institute. \"This could accelerate progress but also raises questions about interpretability, since the evolved architectures are often opaque.\"\n\nSakana AI plans to open-source the core evolutionary framework, allowing other labs to apply it to their own domains. However, they will keep the pre-trained Evolution 2 weights behind an API for commercial use.\n\n### Future Directions\n\nThe team is already working on Evolution 3, which will incorporate multi-objective evolution to balance performance, latency, and memory usage. They also hope to extend the method to multimodal models.\n\nAs the AI field shifts towards more autonomous and efficient development, Evolution 2 serves as a proof point that evolution can be a powerful ally in creating smarter, cheaper AI.\n\n---\n*For more details, visit the official Sakana AI blog.*"
+  },
+  {
+    "title": "Breakthrough in Edge AI: New Chip Design Enables On-Device Training for Smartphones",
+    "slug": "edge-ai-chip-on-device-training",
+    "date": "2026-08-12",
+    "category": "Hardware",
+    "excerpt": "A consortium led by MIT and TSMC unveils a novel chip architecture that allows smartphones to train small neural networks locally, preserving privacy and enabling personalized AI.",
+    "tags": [
+      "edge AI",
+      "chip design",
+      "on-device training",
+      "privacy",
+      "smartphones"
+    ],
+    "content": "## Breakthrough in Edge AI: On-Device Training for Smartphones\n\nA collaborative effort involving MIT, TSMC, and several leading semiconductor companies has resulted in a chip design that enables smartphones to train neural networks directly on the device. This innovation, detailed in a paper published today in *Nature Electronics*, promises to revolutionize personalized AI while addressing privacy concerns.\n\n### How It Works\n\nThe new chip, dubbed \"TrainEdge,\" integrates a specialized tensor processing unit (TPU) with a novel memory hierarchy that reduces the energy cost of gradient computation. By using analog in-memory computing, the chip can perform multiply-accumulate operations with far lower power consumption than digital counterparts. Additionally, the design includes a dedicated on-chip optimizer that handles backpropagation without needing to offload data to the cloud.\n\nIn testing, a prototype TrainEdge chip embedded in a reference smartphone was able to train a small image classifier on 10,000 images in under five minutes while consuming only 200 milliwatts. The model accuracy matched that of a similar model trained on a cloud server.\n\n### Implications for Privacy and Personalization\n\nOn-device training is a holy grail for edge AI. It allows apps to adapt to individual user behavior without sending sensitive data to the cloud. For example, a keyboard app can learn a user's typing style, or a health app can adjust its predictions based on local biometric data, all while keeping data on the phone.\n\n\"This is a game-changer for privacy-preserving AI,\" said Dr. Emily Chen, lead author of the paper. \"Users no longer have to choose between personalization and privacy.\"\n\n### Industry Response\n\nMajor smartphone manufacturers are already in talks to license the design. Qualcomm and Apple have expressed interest, though they did not comment publicly. The consortium plans to release a reference design by early 2027, with commercial products expected as soon as 2028.\n\nSome analysts caution that on-device training could increase battery drain, but the team claims that the energy-efficient design actually extends battery life compared to running constant cloud inference.\n\n### Challenges Ahead\n\nWhile the chip works well for small models (under 50 million parameters), training larger models on-device remains impractical due to memory constraints. The researchers are exploring techniques like model compression and federated distillation to address this.\n\nAnother hurdle is the lack of a software stack. Developers will need new tools to harness on-device training, but the consortium has open-sourced a lightweight training framework that integrates with TensorFlow Lite and PyTorch Mobile.\n\n### Future Outlook\n\nThis breakthrough could shift the AI paradigm from cloud-centric to edge-centric, enabling truly intelligent devices that learn and adapt on the fly. As the technology matures, we may see a new era of personal AI that is both powerful and private.\n\nFor now, the TrainEdge chip stands as a testament to the relentless innovation in edge computing. The future of AI might just be in your pocket."
+  },
+  {
     "title": "OpenAI Unveils GPT-5 Omni: A Multimodal Leap Toward Human-Level AI",
     "slug": "openai-gpt5-omni-multimodal-leap",
     "date": "2026-08-11",
