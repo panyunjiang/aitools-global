@@ -334,5 +334,22 @@
     "pricing": "Freemium",
     "logo": "✨",
     "featured": true
+  },
+  {
+    "id": "hugging-face-transformers",
+    "name": "Hugging Face Transformers",
+    "url": "https://huggingface.co/transformers",
+    "description": "An open-source library providing thousands of pre-trained models for natural language processing, computer vision, and audio tasks.",
+    "descriptionZh": "一个开源库，提供数千个预训练模型，用于自然语言处理、计算机视觉和音频任务。",
+    "category": "Machine Learning Library",
+    "tags": [
+      "open source",
+      "NLP",
+      "models",
+      "developers"
+    ],
+    "pricing": "Open Source",
+    "logo": "🤗",
+    "featured": false
   }
 ]
