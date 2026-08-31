@@ -351,5 +351,21 @@
     "pricing": "Open Source",
     "logo": "🤗",
     "featured": false
+  },
+  {
+    "id": "google-bard",
+    "name": "Google Bard",
+    "url": "https://bard.google.com",
+    "description": "Google's conversational AI service powered by LaMDA, offering creative and informative responses.",
+    "descriptionZh": "谷歌基于LaMDA的对话式AI服务，提供创意和信息丰富的回答。",
+    "category": "Chatbot",
+    "tags": [
+      "AI",
+      "Search",
+      "Assistant"
+    ],
+    "pricing": "Free",
+    "logo": "✨",
+    "featured": true
   }
 ]
