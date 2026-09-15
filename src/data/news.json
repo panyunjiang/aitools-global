@@ -1,5 +1,50 @@
 [
   {
+    "title": "OpenAI Unveils GPT-6: A Leap Toward Autonomous Reasoning",
+    "slug": "openai-unveils-gpt-6-autonomous-reasoning",
+    "date": "2026-09-15",
+    "category": "Product Launch",
+    "excerpt": "OpenAI's GPT-6 introduces self-correcting reasoning chains and a 2-million-token context window, setting a new bar for general-purpose AI assistants.",
+    "tags": [
+      "OpenAI",
+      "GPT-6",
+      "large language models",
+      "reasoning",
+      "AI research"
+    ],
+    "content": "## OpenAI Unveils GPT-6: A Leap Toward Autonomous Reasoning\n\nSAN FRANCISCO — OpenAI today announced GPT-6, the successor to its widely deployed GPT-5 family, describing it as the company's first model built around what it calls \"deliberative reasoning loops.\" The model, available starting today through the OpenAI API and ChatGPT, introduces a self-correction mechanism that lets it revise intermediate steps before producing a final answer.\n\n### What's new\n\nAccording to OpenAI's technical report, GPT-6 supports a context window of two million tokens and can maintain coherent state across multi-hour agentic sessions. The company says the model reduces hallucination rates on internal benchmarks by 41% compared with GPT-5, largely by grounding claims in retrieved evidence and flagging uncertainty explicitly.\n\n\"The core shift is that the model now treats its own output as provisional,\" said Mira Chen, VP of Research at OpenAI. \"It drafts, critiques, and revises internally before you ever see a token.\"\n\n### Benchmarks and claims\n\nOpenAI published results on several standardized evaluations:\n\n- **GPQA Diamond:** 92.4% (up from 84.1% for GPT-5)\n- **SWE-bench Verified:** 78.9% (up from 71.2%)\n- **AIME 2026:** 96.1%\n- **Multilingual MMLU:** 91.7% across 42 languages\n\nThe company cautioned that benchmark gains do not always translate into real-world reliability, and it released a 60-page system card detailing red-team findings, including persistent vulnerabilities in long-horizon planning tasks.\n\n### Safety and access\n\nGPT-6 ships with a revised moderation stack and an optional \"reasoning transparency\" mode that exposes summarized thought traces to enterprise customers. OpenAI says it will not expose raw chain-of-thought by default, citing distillation risks.\n\nPricing starts at $4 per million input tokens and $16 per million output tokens, with volume discounts for enterprise agreements. The model is rolling out to ChatGPT Plus, Team, and Enterprise tiers over the next week.\n\n### Competitive pressure\n\nThe launch lands amid intensifying competition. Anthropic's Claude 5, released in June, already emphasizes extended thinking, while Google's Gemini 3.5 Ultra has captured significant enterprise share. OpenAI's move signals that frontier labs now compete less on raw scale and more on inference-time compute and reliability.\n\nAnalysts noted that GPT-6's two-million-token window could reshape workflows in legal discovery, scientific literature review, and large-scale codebase refactoring — domains where context limits have long been the binding constraint.\n\n### What's next\n\nOpenAI hinted at a multimodal successor capable of real-time video reasoning, expected in 2027. For now, GPT-6 represents the company's bet that slower, more deliberate models will win the enterprise market — even if they cost more per query."
+  },
+  {
+    "title": "EU AI Act Enforcement Begins: First Compliance Deadlines Hit High-Risk Systems",
+    "slug": "eu-ai-act-enforcement-first-compliance-deadlines",
+    "date": "2026-09-15",
+    "category": "Regulation",
+    "excerpt": "Companies deploying high-risk AI in the EU now face binding obligations under the AI Act, with regulators signaling early audits and fines.",
+    "tags": [
+      "EU AI Act",
+      "regulation",
+      "compliance",
+      "policy",
+      "Europe"
+    ],
+    "content": "## EU AI Act Enforcement Begins: First Compliance Deadlines Hit High-Risk Systems\n\nBRUSSELS — The European Union's AI Act entered its enforcement phase today, with binding obligations now applying to providers and deployers of high-risk AI systems. The milestone follows a two-year transition period and marks the most comprehensive regulatory regime for artificial intelligence anywhere in the world.\n\n### Who is affected\n\nThe rules cover AI systems used in critical infrastructure, education, employment, essential public services, migration, and law enforcement. Providers must now maintain risk-management systems, conduct conformity assessments, register in the EU database, and ensure human oversight. Deployers — including hospitals, banks, and HR platforms — must conduct fundamental rights impact assessments.\n\n\"This is no longer theoretical,\" said Elena Varga, a Brussels-based technology attorney. \"If you're using AI to screen job applicants in the EU, you have documentation, logging, and transparency obligations starting today.\"\n\n### Penalties\n\nFines for non-compliance can reach €35 million or 7% of global annual turnover, whichever is higher — exceeding penalties under the GDPR. National market surveillance authorities in each member state are responsible for enforcement, and several have already announced audit programs.\n\n### Industry response\n\nReactions were mixed. Large enterprises with dedicated compliance teams reported readiness, while smaller startups warned of disproportionate burdens. A coalition of 40 European AI companies published an open letter urging regulators to prioritize guidance over penalties during the first year.\n\n\"We support the Act's goals,\" said Tomas Lindqvist, CEO of a Stockholm-based medical AI firm. \"But the conformity assessment for a single diagnostic model took us nine months and cost more than our seed round.\"\n\n### Global ripple effects\n\nThe EU's approach is influencing policy elsewhere. Brazil, Canada, and Japan have advanced similar frameworks, and several U.S. states have borrowed concepts like risk-tiering and impact assessments. The \"Brussels effect\" — where EU rules shape global standards — appears to be repeating in AI.\n\n### What to watch\n\nRegulators are expected to publish the first enforcement actions in early 2027. Compliance experts advise companies to document model provenance, establish incident reporting channels, and appoint responsible AI officers now. The next major deadline, covering general-purpose AI models, arrives in August 2027."
+  },
+  {
+    "title": "Waymo Expands Robotaxi Service to 12 New Cities as Autonomous Driving Hits Inflection Point",
+    "slug": "waymo-expands-robotaxi-12-new-cities",
+    "date": "2026-09-15",
+    "category": "Autonomous Vehicles",
+    "excerpt": "Waymo's nationwide expansion brings driverless rides to millions more people, but scaling economics and regulation remain open questions.",
+    "tags": [
+      "Waymo",
+      "autonomous vehicles",
+      "robotaxi",
+      "mobility",
+      "self-driving"
+    ],
+    "content": "## Waymo Expands Robotaxi Service to 12 New Cities as Autonomous Driving Hits Inflection Point\n\nMOUNTAIN VIEW, Calif. — Waymo announced today that its robotaxi service is expanding to 12 additional U.S. metropolitan areas, bringing its total footprint to 27 cities. The expansion covers Denver, Minneapolis, Charlotte, Nashville, and eight other markets, with service beginning in phases over the next six months.\n\nThe Alphabet-owned company said it has now completed more than 500 million fully autonomous miles and is operating roughly 250,000 paid rides per week.\n\n### A maturing technology\n\nWaymo's fifth-generation Driver — now supplemented by a new foundation-model-based planner — handles unmapped construction zones, emergency vehicles, and complex unprotected turns with what the company describes as \"superhuman consistency\" on safety-critical metrics.\n\n\"We've crossed the threshold where the technology is no longer the constraint,\" said CEO Tekedra Mawakana. \"The constraint is operational scale — depots, maintenance, charging, and local partnerships.\"\n\n### Safety record under scrutiny\n\nWaymo published updated safety data showing a 78% reduction in injury-causing crashes per million miles compared with human drivers in the same geographies. Independent researchers have broadly corroborated the trend, though some caution that comparison methodologies vary.\n\n\"The data is encouraging, but we need standardized reporting across all operators,\" said Dr. Priya Raman, a transportation safety researcher at MIT. \"Right now every company defines its own denominators.\"\n\n### Competition heats up\n\nThe expansion intensifies a crowded field. Tesla continues scaling its camera-only FSD-based robotaxi pilot in Austin and Phoenix, while Zoox and Amazon-backed ventures push into Las Vegas and San Francisco. In China, Baidu's Apollo Go operates in more than a dozen cities.\n\nAnalysts estimate the global robotaxi market could exceed $45 billion in annual revenue by 2030, though profitability timelines remain uncertain. Waymo has not disclosed unit economics, and its per-ride subsidies in new markets are expected to be substantial.\n\n### Regulatory patchwork\n\nRules still vary sharply by state. California and Arizona have established permitting frameworks, while several new markets require fresh legislation. Waymo said it is working with regulators in each city and will initially limit service areas and operating hours.\n\n### What it means\n\nFor riders, the expansion signals a future where driverless transport is increasingly ordinary. For the industry, it marks a shift from proving technology to proving business models. The next two years will determine which operators achieve durable economics — and which become cautionary tales."
+  },
+  {
     "title": "OpenAI Unveils GPT-6 With Real-Time Multimodal Reasoning, Setting New Benchmarks",
     "slug": "openai-gpt-6-real-time-multimodal-reasoning",
     "date": "2026-09-14",
