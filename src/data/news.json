@@ -1,5 +1,35 @@
 [
   {
+    "title": "EU AI Act Enforcement Begins: First Compliance Deadline Hits High-Risk Systems",
+    "slug": "eu-ai-act-enforcement-first-compliance-deadline",
+    "date": "2026-09-17",
+    "category": "Policy & Regulation",
+    "excerpt": "Companies deploying high-risk AI in the EU must now meet transparency, documentation, and human-oversight requirements or face fines up to 3% of global revenue.",
+    "tags": [
+      "EU AI Act",
+      "regulation",
+      "compliance",
+      "high-risk AI",
+      "governance"
+    ],
+    "content": "## EU AI Act Enforcement Begins: First Compliance Deadline Hits High-Risk Systems\n\nToday marks the first hard enforcement date under the EU AI Act for **high-risk systems**, covering everything from hiring algorithms to medical triage tools. Companies that deploy or distribute these systems in the bloc must now demonstrate compliance or risk penalties of up to 3% of global annual revenue.\n\n### What the deadline covers\n\nThe obligations landing today include:\n\n- **Risk management systems** documented across the model lifecycle\n- **Technical documentation** sufficient for regulators to assess conformity\n- **Human oversight** mechanisms that can interrupt or override outputs\n- **Logging and traceability** for at least six months\n- **Accuracy, robustness, and cybersecurity** testing\n\nProviders must also register covered systems in the EU database before deployment.\n\n### Industry scramble\n\nCompliance consultancies report a surge in last-minute audits. A survey of 400 European enterprises found that only 38% believed they were fully ready, while 22% admitted they had not started documentation. Smaller vendors are the most exposed, lacking the legal teams that larger competitors maintain.\n\n> \"The gap isn't awareness — it's evidence. Companies know what the rules say, but they can't prove what their models do,\" said one Brussels-based compliance lead.\n\n### The global spillover\n\nThe AI Act's reach extends beyond Europe. Because compliance is cheaper to build once than to retrofit per region, many multinationals are adopting EU standards as a global baseline. That dynamic mirrors GDPR's early years, when European rules quietly became the default for privacy engineering worldwide.\n\n### Open questions\n\nEnforcement capacity remains uncertain. National authorities have hired unevenly, and the AI Office has signaled it will prioritize **systemic-risk** cases over routine paperwork. Critics argue this creates ambiguity for mid-market firms that fall between \"clearly safe\" and \"clearly dangerous.\"\n\n### What happens next\n\nGeneral-purpose AI model obligations phase in over the next several months, with separate rules for models above a compute threshold. Companies should expect supervisory requests rather than immediate fines, though the Commission has said it will make examples of egregious non-compliance.\n\nThe message to industry is blunt: the grace period is over, and AI governance is now a line item with legal teeth."
+  },
+  {
+    "title": "AI Data Centers Strain Power Grids as Utilities Ration Capacity",
+    "slug": "ai-data-centers-power-grids-utilities-ration-capacity",
+    "date": "2026-09-17",
+    "category": "Infrastructure",
+    "excerpt": "Surging AI compute demand is forcing utilities to queue new data center connections, spurring nuclear deals and on-site generation.",
+    "tags": [
+      "data centers",
+      "energy",
+      "infrastructure",
+      "nuclear",
+      "compute"
+    ],
+    "content": "## AI Data Centers Strain Power Grids as Utilities Ration Capacity\n\nUtilities across North America and Europe are beginning to **ration grid connections** for new AI data centers, as demand from training clusters outpaces the pace of transmission buildout. In several regions, wait times for large interconnections now stretch past 2029.\n\n### The numbers behind the crunch\n\nA single frontier training campus can draw **hundreds of megawatts**, comparable to a mid-sized city. Industry analysts estimate global data center power demand could double again by 2028, driven almost entirely by accelerated computing.\n\n- Virginia's data center alley has paused new commitments pending transmission upgrades\n- Ireland has effectively capped new connections in the Dublin region\n- Texas is fast-tracking gas and storage projects to absorb load growth\n\n### Utilities push back\n\nGrid operators argue the bottleneck is not generation alone but **interconnection and transmission**. Building high-voltage lines takes a decade in many jurisdictions, while data center timelines are measured in quarters. The mismatch has turned power procurement into a strategic function inside AI labs.\n\n> \"We can build the GPUs faster than we can power them. That's a new sentence for this industry,\" a utility executive told reporters.\n\n### Nuclear and on-site generation\n\nIn response, hyperscalers are signing long-term power purchase agreements with nuclear operators and funding small modular reactor pilots. Others are deploying on-site gas turbines and battery storage to bridge the gap, trading sustainability targets for speed.\n\n### Community friction\n\nRising electricity bills and water use for cooling have triggered local opposition in several counties. Regulators are weighing **cost-allocation rules** that would require large loads to fund their own infrastructure, a change that could raise effective compute costs.\n\n### What it means for AI\n\nCheap, abundant power was an implicit assumption behind the scaling era. If that assumption breaks, the industry may shift toward **efficiency-first architectures**, geographic load balancing, and smaller models trained on higher-quality data. Efficiency research, long underfunded, is suddenly strategic.\n\nThe AI boom's next constraint may not be chips or talent — it may simply be the electricity to run the lights."
+  },
+  {
     "title": "Google DeepMind Unveils Gemini 3.0: A Leap Toward Artificial General Intelligence",
     "slug": "google-deepmind-gemini-3-agi",
     "date": "2026-09-16",
