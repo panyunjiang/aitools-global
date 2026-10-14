@@ -1,5 +1,20 @@
 [
   {
+    "title": "Robotics Startup Figure Raises $2.4B to Deploy Humanoids in European Warehouses",
+    "slug": "figure-robotics-2-4b-humanoid-warehouses",
+    "date": "2026-10-14",
+    "category": "Funding",
+    "excerpt": "Figure closed a $2.4 billion round to mass-produce humanoid robots for logistics, with the first 10,000 units headed to European warehouse operators by late 2027.",
+    "tags": [
+      "Figure",
+      "humanoid robots",
+      "funding",
+      "logistics",
+      "automation"
+    ],
+    "content": "## Figure Raises $2.4B to Scale Humanoid Deployment\n\nHumanoid robotics company Figure announced today that it has raised $2.4 billion in a round led by a sovereign wealth fund, with participation from several logistics giants and existing investors. The company says the capital will fund a new factory in Texas and its first large-scale European deployment.\n\nThe round values Figure at $39 billion post-money, making it one of the most valuable private robotics companies in the world.\n\n### From Demos to Deployment\n\nFor years, humanoid robots have been impressive in videos and scarce in the real world. Figure says that changes now. The company plans to produce 10,000 units of its latest model, the Figure 04, by the end of 2027, with the majority leased—not sold—to warehouse and manufacturing customers.\n\n\"Leasing is the right model because the robots get better every month,\" said Figure's CEO. \"Our customers are not buying a fixed machine. They are subscribing to a continuously improving workforce.\"\n\nThe Figure 04 is claimed to run for a full eight-hour shift on a swappable battery, lift 55 pounds, and operate at roughly human speed for picking, sorting, and palletizing tasks. Figure says the robot's onboard model—trained with a mix of teleoperation data and simulated reinforcement learning—can be redeployed to a new task in under an hour using natural-language instructions.\n\n### The European Push\n\nThe first 10,000 units are earmarked for European warehouse operators, a decision Figure attributes to labor shortages and favorable automation incentives in Germany, the Netherlands, and Poland. Figure says it will open a service and maintenance hub near Rotterdam and hire 400 technicians across the region.\n\nEuropean labor unions responded cautiously. One logistics union said it would seek agreements guaranteeing that humanoid deployment does not come with unilateral headcount cuts, while another called for a sector-wide retraining fund.\n\n### The Economics\n\nFigure is pricing leases at roughly €4,200 per robot per month, undercutting the fully loaded cost of a human shift in several European markets. If the company hits its production targets, that pricing could make humanoids economically rational for mid-sized warehouses, not just the largest players.\n\nCompetitors are moving too. Tesla, Agility Robotics, and several Chinese manufacturers have announced their own scale-up plans. The race is no longer about whether humanoids can work, but who can manufacture and service them reliably at volume.\n\n### Risks Ahead\n\nFigure's biggest challenges are manufacturing yield, safety certification, and the long tail of real-world tasks that demos never show. A single high-profile injury or a warehouse deployment that quietly stalls could reset the narrative. For now, investors are betting that the company that solves production and reliability first will define the category.\n\nThe round is expected to close formally later this month, pending regulatory approval."
+  },
+  {
     "title": "OpenAI Unveils GPT-6 With Native Real-Time Video Reasoning",
     "slug": "openai-gpt-6-native-video-reasoning",
     "date": "2026-10-13",
