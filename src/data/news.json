@@ -1,5 +1,20 @@
 [
   {
+    "title": "Enterprise AI Spending Surges as ROI Questions Mount",
+    "slug": "enterprise-ai-spending-roi-questions-2026",
+    "date": "2026-10-21",
+    "category": "Industry Analysis",
+    "excerpt": "A new survey finds enterprise AI budgets climbing sharply, even as executives express uncertainty about measuring returns on generative AI investments.",
+    "tags": [
+      "enterprise AI",
+      "ROI",
+      "industry analysis",
+      "adoption",
+      "budgets"
+    ],
+    "content": "## Enterprise AI Spending Climbs, but ROI Remains Elusive\n\nEnterprise spending on AI continues to accelerate, according to a survey of 1,200 technology and business leaders released this week. Nearly two-thirds of respondents said their organizations plan to increase AI budgets in the next fiscal year, with the median increase around 18%.\n\nYet the same survey found that fewer than half of respondents could point to a clear, quantified return on their generative AI investments.\n\n### Where the Money Is Going\n\nThe spending is concentrated in three areas:\n\n1. **Infrastructure and inference costs** — as companies move from pilots to production, compute bills are rising faster than anticipated.\n2. **Data and integration work** — connecting models to internal systems remains the largest hidden cost.\n3. **Talent and governance** — compliance, security review, and AI product management roles are in high demand.\n\n\"The pilot phase is over for most large enterprises,\" said an analyst who reviewed the data. \"They are now paying for the unglamorous parts: pipelines, evaluation harnesses, and audit trails.\"\n\n### The Measurement Problem\n\nExecutives cite several reasons ROI is hard to pin down:\n\n- **Attribution:** productivity gains from AI assistants are diffuse and difficult to isolate from other changes.\n- **Time horizons:** many deployments are less than 18 months old, too short for reliable cost-benefit analysis.\n- **Shadow usage:** employees use consumer AI tools outside sanctioned systems, distorting internal metrics.\n\nOne CFO of a mid-sized logistics firm described the tension plainly: \"We know these tools help. We cannot yet prove by how much, and the board wants numbers.\"\n\n### Winners and Cautions\n\nThe survey suggests a widening gap between companies that have restructured workflows around AI and those that have simply added tools on top of existing processes. The former report higher satisfaction and more measurable outcomes; the latter report frustration and stalled adoption.\n\nVendors are responding by emphasizing evaluation and observability features. Several platforms have launched dashboards that track model performance, cost per task, and error rates — attempts to make ROI legible to finance teams.\n\n### A Reckoning Ahead?\n\nSome analysts warn that the current spending pace may not be sustainable without clearer returns. If budgets tighten, the first casualties could be experimental projects and vendors that have not demonstrated concrete value.\n\n\"The era of easy AI budgets is ending,\" the analyst said. \"The next two years will separate the companies that built durable capability from those that bought demos.\"\n\nFor now, though, the direction is clear: enterprises are committing to AI as core infrastructure. The open question is whether the returns will arrive fast enough to justify the bill."
+  },
+  {
     "title": "OpenAI Unveils GPT-6 With Native Multimodal Reasoning and Million-Token Context",
     "slug": "openai-gpt-6-native-multimodal-million-token",
     "date": "2026-10-20",
